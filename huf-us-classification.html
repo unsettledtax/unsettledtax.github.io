@@ -1,0 +1,203 @@
+<title>The IRS Has Never Classified an HUF</title>
+<style>
+:root{--bg:#fdfcfa;--panel:#fff;--ink:#1a1a1a;--mut:#5a5a5a;--line:#e5e2db;
+ --acc:#7a4a1f;--warn:#8a5a00;--warn-bg:#fdf7ea;--stop:#8c2f1c;--stop-bg:#fdf1ed}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#16161a;--panel:#1d1e23;
+ --ink:#eceef2;--mut:#a2a8b2;--line:#2d3038;--acc:#d9a86a;--warn:#dfb463;--warn-bg:#2a2418;
+ --stop:#e79178;--stop-bg:#2b1c17}}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);margin:0;padding:0 1.15rem 6rem;
+ font:16.5px/1.65 Charter,Georgia,"Iowan Old Style",serif}
+.w{max-width:730px;margin:0 auto}
+header{padding:4rem 0 1.5rem}
+h1{font-size:clamp(1.9rem,5vw,2.7rem);line-height:1.12;margin:0 0 .6rem;letter-spacing:-.02em}
+.sub{color:var(--mut);margin:0;font-size:1.05rem}
+.stamp{margin-top:1.6rem;font:500 .8rem/1.5 ui-sans-serif,system-ui,sans-serif;
+ color:var(--mut);letter-spacing:.04em;text-transform:uppercase}
+h2{font-size:1.35rem;margin:3rem 0 .3rem;letter-spacing:-.01em}
+h3{font-size:1rem;margin:1.8rem 0 .3rem;font-family:ui-sans-serif,system-ui,sans-serif}
+p{margin:.85rem 0}
+.lede{font-size:1.1rem;color:var(--mut)}
+blockquote{margin:1.1rem 0;padding:.85rem 1.1rem;border-left:3px solid var(--acc);
+ background:var(--panel);font-size:.97rem}
+blockquote p{margin:.3rem 0}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:7px;
+ padding:1.1rem 1.25rem;margin:1.4rem 0}
+.box.stop{border-color:var(--stop);background:var(--stop-bg)}
+.box.warn{border-color:var(--warn);background:var(--warn-bg)}
+.tag{display:inline-block;font:600 .68rem/1 ui-sans-serif,system-ui,sans-serif;
+ text-transform:uppercase;letter-spacing:.09em;padding:.3rem .55rem;border-radius:4px;
+ border:1px solid currentColor;margin-bottom:.6rem}
+.t-stop{color:var(--stop)} .t-warn{color:var(--warn)}
+table{width:100%;border-collapse:collapse;margin:1.2rem 0;
+ font:.9rem/1.5 ui-sans-serif,system-ui,sans-serif}
+th,td{text-align:left;padding:.55rem .6rem;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:.72rem;text-transform:uppercase;letter-spacing:.07em;color:var(--mut)}
+.scroll{overflow-x:auto;margin:0 -1.15rem;padding:0 1.15rem}
+ol,ul{padding-left:1.3rem}
+li{margin:.45rem 0}
+a{color:var(--acc)}
+footer{margin-top:4rem;padding-top:1.6rem;border-top:1px solid var(--line);
+ color:var(--mut);font:.87rem/1.6 ui-sans-serif,system-ui,sans-serif}
+code{font-size:.9em;background:var(--panel);padding:.1rem .3rem;border-radius:3px}
+nav.series{font:500 .8rem/1.5 ui-sans-serif,system-ui,sans-serif;color:var(--mut);
+ margin:0 0 .4rem;letter-spacing:.02em}
+nav.series a{color:var(--mut);text-decoration:underline}
+</style>
+<div class="w">
+<header>
+<nav class="series">Unsettled questions, part 6 &middot; <a href="index.html">Part 1: PPF, EPF, NPS, ULIPs</a> &middot; <a href="fbar-joint-accounts.html">Part 2: joint accounts and FBAR</a> &middot; <a href="inherited-property-sale.html">Part 3: selling inherited property</a> &middot; <a href="green-card-treaty-nonresident.html">Part 4: the green-card treaty election</a> &middot; <a href="lrs-tcs-foreign-tax-credit.html">Part 5: LRS TCS and the US foreign tax credit</a></nav>
+<h1>The karta&rsquo;s unlimited liability may decide your HUF&rsquo;s US tax classification</h1>
+<p class="sub">No IRS ruling has ever classified a Hindu Undivided Family. The one detailed
+practitioner analysis that exists gets the trust-versus-business-entity question right and
+stops there &mdash; without reaching the Treasury regulation that decides which business
+entity it would be if it isn&rsquo;t a trust.</p>
+<p class="stamp">Sources read in full &middot; 26 CFR 301.7701-4(a) &middot; 26 CFR
+301.7701-3(b)(2) &middot; 26 CFR 301.7701-2(b)(8) &middot; Hindu law on karta and coparcener
+liability</p>
+</header>
+
+<p class="lede">If a coparcener of an HUF becomes a US citizen or green-card holder, every
+downstream US filing obligation &mdash; Form 3520, Form 8938, Form 8865, Form 5471, FBAR,
+none of them, all of them &mdash; turns on one question the IRS has never answered: what kind
+of entity is a Hindu Undivided Family under 26 U.S.C. &sect;7701? This page does not resolve
+that question. It reads the two regulations that would have to be applied in sequence to
+answer it, and finds a second, narrower question inside the first one that no US-tax source
+appears to have asked at all.</p>
+
+<div class="box stop">
+<span class="tag t-stop">The one most often missed</span>
+<h3 style="margin-top:0">1. If HUF is a business entity, the karta&rsquo;s liability &mdash; not the coparceners&rsquo; &mdash; decides whether it defaults to a partnership or a corporation</h3>
+<p>The best existing analysis (a 2020 article from a US international tax firm, read in full)
+correctly frames the threshold question as trust versus business entity under
+26 CFR 301.7701-4(a):</p>
+<blockquote><p><strong>26 CFR 301.7701-4(a):</strong> &ldquo;An arrangement will be treated as
+a trust under the Internal Revenue Code if it can be shown that the purpose of the arrangement
+is to vest in trustees responsibility for the protection and conservation of property for
+beneficiaries who cannot share in the discharge of this responsibility and, therefore, are not
+associates in a joint enterprise for the conduct of business for profit.&rdquo;</p></blockquote>
+<p>That article concludes &mdash; reasonably &mdash; that a non-trading HUF holding family
+property looks like a trust, and a trading HUF running a family business looks like a business
+entity, with the classification turning on facts and circumstances. It then briefly lists the
+consequences of each possible business-entity outcome (Form 5471 if a corporation, Form 8865
+if a partnership) without saying which one a business-entity HUF would actually default to.
+<strong>That default is not a coin flip. It is fixed by a specific regulatory test, and Hindu
+law answers that test cleanly.</strong></p>
+<blockquote><p><strong>26 CFR 301.7701-3(b)(2)(i):</strong> unless the entity elects otherwise, a
+foreign eligible entity is &ldquo;(A) A partnership if it has two or more members and at least
+one member does not have limited liability; [or] (B) An association if all members have
+limited liability.&rdquo;</p></blockquote>
+<blockquote><p><strong>26 CFR 301.7701-3(b)(2)(ii), definition of limited liability:</strong>
+&ldquo;a member of a foreign eligible entity has limited liability if the member has no
+personal liability for the debts of or claims against the entity by reason of being a
+member.&rdquo;</p></blockquote>
+<p>Under Hindu law, the karta and the ordinary coparceners do not have the same liability. A
+karta who manages a trading HUF&rsquo;s business can be personally sued and held liable for
+debts contracted in the conduct of that business &mdash; liability that is not capped at the
+karta&rsquo;s share of the joint family property. A coparcener who takes no active role, by
+contrast, is liable only to the extent of their own undivided interest in the family property.
+A January 2026 Bombay High Court order on execution of a decree against an HUF states the rule
+directly: the karta has personal liability &ldquo;only when the HUF is a &lsquo;trading&rsquo;
+HUF which carries on business&rdquo; &mdash; but where that condition is met, the karta&rsquo;s
+own assets are exposed, not merely the family property.</p>
+<p><strong>Run that fact pattern through 301.7701-3(b)(2)(ii):</strong> a trading HUF with a
+karta who has no cap on personal liability is an entity with &ldquo;at least one member [who]
+does not have limited liability.&rdquo; Under (b)(2)(i)(A), that is the fact pattern for the
+default <strong>partnership</strong> classification, not the default association
+(corporation) classification &mdash; regardless of how limited the ordinary coparceners&rsquo;
+exposure is. No source found states this. The best existing article lists Form 8865
+(partnership) and Form 5471 (corporation) as parallel possibilities without noting that the
+regulation&rsquo;s own default mechanically favours the partnership outcome for exactly the
+kind of HUF &mdash; a trading one, with an active karta &mdash; that is most likely to be
+treated as a business entity at all in the first place.</p>
+</div>
+
+<h2>2. HUF is not on the per se corporation list &mdash; so the default question is live</h2>
+<p>26 CFR 301.7701-2(b)(8)(i) lists, by country, the foreign entity types that are always
+treated as corporations regardless of the entity&rsquo;s own facts (an Australian
+&ldquo;Public Limited Company,&rdquo; an Argentine &ldquo;Sociedad Anonima,&rdquo; and so on).
+For India, the list names exactly one entity type:</p>
+<blockquote><p><strong>26 CFR 301.7701-2(b)(8)(i):</strong> &ldquo;India, Public Limited
+Company.&rdquo;</p></blockquote>
+<p>An HUF is not a Public Limited Company and is not defined under India&rsquo;s Companies Act
+at all &mdash; it exists under Hindu personal law, a distinction the 2020 practitioner article
+also makes correctly. That means an HUF classified as a business entity is an
+&ldquo;eligible entity&rdquo; for check-the-box purposes, which is exactly why the default
+rule in 301.7701-3(b)(2), and the liability test inside it, is the provision that actually
+controls &mdash; not a per se rule that would make the question moot.</p>
+
+<div class="box warn">
+<span class="tag t-warn">The prior question, still open</span>
+<p style="margin-top:0">All of this is downstream of the trust-versus-business-entity
+question, which is itself unresolved and fact-dependent, exactly as the 2020 article states.
+A purely property-holding HUF with a passive karta plausibly stays a trust under
+301.7701-4(a), in which case none of the partnership-versus-corporation analysis above
+applies at all &mdash; Form 3520/3520-A and the throwback-tax rules on accumulated trust
+income become the live questions instead, not Form 8865 or Form 5471. <strong>This page does
+not resolve which HUFs are trades and which are trusts.</strong> It resolves a narrower,
+conditional question: <em>if</em> a particular HUF is a trading, business-entity HUF, which
+default classification the regulation assigns to it, and why the karta&rsquo;s exposure
+(not the coparceners&rsquo;) is the fact that decides it.</p>
+</div>
+
+<h2>3. What each classification would mean for a coparcener who is a US person</h2>
+<div class="scroll"><table>
+<thead><tr><th>If HUF is&hellip;</th><th>Governing test</th><th>Filings for a US-person coparcener</th></tr></thead>
+<tbody>
+<tr><th scope="row">A trust</th><td>301.7701-4(a): protecting/conserving property, not a joint profit enterprise</td><td>Form 3520, Form 3520-A (if a US person is treated as an owner or receives a distribution), Form 8938, FBAR; possible throwback tax on accumulated income distributions</td></tr>
+<tr><th scope="row">A business entity, defaulting to partnership</th><td>301.7701-3(b)(2)(i)(A): 2+ members, at least one (the karta, in a trading HUF) without limited liability</td><td>Form 8865, Schedule K-1 income reporting, Form 8938</td></tr>
+<tr><th scope="row">A business entity, defaulting to association/corporation</th><td>301.7701-3(b)(2)(i)(B): all members have limited liability &mdash; the fact pattern this page argues a trading HUF with an active karta does not satisfy</td><td>Form 5471, CFC/GILTI analysis if control thresholds are met, Form 8938, PFIC exposure if not a CFC</td></tr>
+</tbody></table></div>
+<p>The three columns are not interchangeable inconveniences &mdash; the compliance burden,
+the penalty exposure, and the character of income reported to the IRS differ substantially
+between them. A coparcener working from the wrong classification is not making a rounding
+error.</p>
+
+<h2>4. Falsification: what was checked before this was written</h2>
+<p>Search on the market&rsquo;s actual vocabulary (&ldquo;HUF US tax classification,&rdquo;
+&ldquo;HUF Form 8865 8938 trust partnership IRS&rdquo;) surfaces a genuinely competent,
+detailed article (sherayzenlaw.com, read in full, not title-matched) that quotes
+301.7701-4(a) verbatim and correctly frames the trust/business-entity threshold question. A
+second search combining the Treasury regulation number with Hindu-law liability terms
+(&ldquo;HUF karta limited liability 301.7701-3,&rdquo; &ldquo;check-the-box default
+classification&rdquo;) returned no matching content connecting the two at all &mdash; the
+closest hits were unrelated PDF/Facebook fragments. A separate search on the Hindu-law side
+(&ldquo;karta personal liability HUF debts,&rdquo; &ldquo;coparcener liability limited to
+share&rdquo;) returned multiple convergent legal sources (Legal 500, Legal Bites, a January
+2026 Bombay High Court order, and several Indian tax/finance sites) all stating the same
+unlimited-karta/limited-coparcener asymmetry independently of any US tax context. The gap is
+not that HUF is uncovered &mdash; it is that the Hindu-law liability asymmetry and the
+Treasury regulation that turns on exactly that asymmetry have not been read together
+anywhere found.</p>
+
+<h2>Questions worth putting to a preparer</h2>
+<ol>
+<li>Are you treating this HUF as a trust or a business entity, and on what facts &mdash; is it
+primarily a property-holding arrangement, or does it carry on a trade or business through the
+karta?</li>
+<li>If you are treating it as a business entity, have you tested the karta&rsquo;s actual
+liability exposure under the personal law governing this specific HUF, rather than assuming a
+default?</li>
+<li>If the karta&rsquo;s liability is unlimited for the HUF&rsquo;s business debts, why would
+the default classification be anything other than a partnership under 301.7701-3(b)(2)(i)(A)?</li>
+<li>Has Form 8832 been considered at all, or is the position resting entirely on the default
+rule?</li>
+<li>If treated as a trust, has the throwback-tax exposure on accumulated distributions been
+modelled, separately from the annual Form 3520/3520-A filing question?</li>
+<li>Is this position supported by an IRS ruling on HUF specifically, or is it a reasoned
+application of a general entity-classification regulation to a fact pattern the IRS has never
+addressed?</li>
+</ol>
+
+<footer>
+<p><strong>This is not tax advice.</strong> It is a reading of primary documents, published so
+that the questions can be asked. It creates no professional relationship, computes no tax, and
+should not be relied on for a filing position. Where a claim could not be confirmed directly
+against a primary source in this pass, this page says so rather than filling the gap.</p>
+<p>Primary sources:
+<a href="https://www.law.cornell.edu/cfr/text/26/301.7701-4">26 CFR 301.7701-4</a> &middot;
+<a href="https://www.law.cornell.edu/cfr/text/26/301.7701-3">26 CFR 301.7701-3</a> &middot;
+<a href="https://www.law.cornell.edu/cfr/text/26/301.7701-2">26 CFR 301.7701-2</a></p>
+<p>Last reviewed 29 August 2026.</p>
+</footer>
+</div>
