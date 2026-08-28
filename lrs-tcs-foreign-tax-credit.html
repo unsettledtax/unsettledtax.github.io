@@ -1,0 +1,179 @@
+<title>The 20% Isn&rsquo;t Automatically a US Tax Credit</title>
+<style>
+:root{--bg:#fdfcfa;--panel:#fff;--ink:#1a1a1a;--mut:#5a5a5a;--line:#e5e2db;
+ --acc:#7a4a1f;--warn:#8a5a00;--warn-bg:#fdf7ea;--stop:#8c2f1c;--stop-bg:#fdf1ed}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#16161a;--panel:#1d1e23;
+ --ink:#eceef2;--mut:#a2a8b2;--line:#2d3038;--acc:#d9a86a;--warn:#dfb463;--warn-bg:#2a2418;
+ --stop:#e79178;--stop-bg:#2b1c17}}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);margin:0;padding:0 1.15rem 6rem;
+ font:16.5px/1.65 Charter,Georgia,"Iowan Old Style",serif}
+.w{max-width:730px;margin:0 auto}
+header{padding:4rem 0 1.5rem}
+h1{font-size:clamp(1.9rem,5vw,2.7rem);line-height:1.12;margin:0 0 .6rem;letter-spacing:-.02em}
+.sub{color:var(--mut);margin:0;font-size:1.05rem}
+.stamp{margin-top:1.6rem;font:500 .8rem/1.5 ui-sans-serif,system-ui,sans-serif;
+ color:var(--mut);letter-spacing:.04em;text-transform:uppercase}
+h2{font-size:1.35rem;margin:3rem 0 .3rem;letter-spacing:-.01em}
+h3{font-size:1rem;margin:1.8rem 0 .3rem;font-family:ui-sans-serif,system-ui,sans-serif}
+p{margin:.85rem 0}
+.lede{font-size:1.1rem;color:var(--mut)}
+blockquote{margin:1.1rem 0;padding:.85rem 1.1rem;border-left:3px solid var(--acc);
+ background:var(--panel);font-size:.97rem}
+blockquote p{margin:.3rem 0}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:7px;
+ padding:1.1rem 1.25rem;margin:1.4rem 0}
+.box.stop{border-color:var(--stop);background:var(--stop-bg)}
+.box.warn{border-color:var(--warn);background:var(--warn-bg)}
+.tag{display:inline-block;font:600 .68rem/1 ui-sans-serif,system-ui,sans-serif;
+ text-transform:uppercase;letter-spacing:.09em;padding:.3rem .55rem;border-radius:4px;
+ border:1px solid currentColor;margin-bottom:.6rem}
+.t-stop{color:var(--stop)} .t-warn{color:var(--warn)}
+table{width:100%;border-collapse:collapse;margin:1.2rem 0;
+ font:.9rem/1.5 ui-sans-serif,system-ui,sans-serif}
+th,td{text-align:left;padding:.55rem .6rem;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:.72rem;text-transform:uppercase;letter-spacing:.07em;color:var(--mut)}
+.scroll{overflow-x:auto;margin:0 -1.15rem;padding:0 1.15rem}
+ol,ul{padding-left:1.3rem}
+li{margin:.45rem 0}
+a{color:var(--acc)}
+footer{margin-top:4rem;padding-top:1.6rem;border-top:1px solid var(--line);
+ color:var(--mut);font:.87rem/1.6 ui-sans-serif,system-ui,sans-serif}
+code{font-size:.9em;background:var(--panel);padding:.1rem .3rem;border-radius:3px}
+nav.series{font:500 .8rem/1.5 ui-sans-serif,system-ui,sans-serif;color:var(--mut);
+ margin:0 0 .4rem;letter-spacing:.02em}
+nav.series a{color:var(--mut);text-decoration:underline}
+</style>
+<div class="w">
+<header>
+<nav class="series">Unsettled questions, part 5 &middot; <a href="index.html">Part 1: PPF, EPF, NPS, ULIPs</a> &middot; <a href="fbar-joint-accounts.html">Part 2: joint accounts and FBAR</a> &middot; <a href="inherited-property-sale.html">Part 3: selling inherited property</a> &middot; <a href="green-card-treaty-nonresident.html">Part 4: the green-card treaty election</a></nav>
+<h1>India&rsquo;s 20% LRS tax collection isn&rsquo;t automatically a US foreign tax credit</h1>
+<p class="sub">Every Indian guide to TCS on outward remittances calls it &ldquo;creditable.&rdquo;
+That is true &mdash; against your Indian tax bill. Whether it survives as a US foreign tax
+credit is a separate question, governed by a separate regulation, and nobody who covers TCS
+in depth appears to have asked it.</p>
+<p class="stamp">Sources read in full &middot; 26 CFR 1.901-2 &middot; Income-tax Act, 2025,
+&sect;394 &middot; RBI Master Direction on the Liberalised Remittance Scheme</p>
+</header>
+
+<p class="lede">This page is for a narrower audience than the rest of this series: a US
+citizen or green-card holder who is <em>also</em> an Indian tax resident &mdash; filing both
+an Indian ITR and a US Form 1040 for the same year &mdash; and who remits money abroad under
+the Liberalised Remittance Scheme (LRS). The Indian-side mechanics of the 20% Tax Collected
+at Source are covered thoroughly, and correctly, by several detailed guides. What follows is
+the question none of them ask: does the amount collected qualify as a foreign income tax
+<em>paid</em>, under the US Treasury&rsquo;s own definition, for the year it was collected?</p>
+
+<div class="box stop">
+<span class="tag t-stop">The one most often missed</span>
+<h3 style="margin-top:0">1. A refundable amount is not a &ldquo;foreign income tax paid&rdquo; &mdash; by the regulation&rsquo;s own words</h3>
+<p>TCS on LRS is not a final tax. It is a prepayment, collected by the bank on the full
+remitted amount and later set off against the remitter&rsquo;s actual Indian income-tax
+liability for the year. If the remitter&rsquo;s real Indian tax bill turns out to be smaller
+than the TCS collected &mdash; a routine outcome when the remitted money is savings or
+principal rather than income &mdash; the excess is refunded, with interest, on filing the
+Indian return. That is exactly the fact pattern the US foreign tax credit regulation
+addresses directly:</p>
+<blockquote><p><strong>26 CFR 1.901-2(e)(2)(i), Refundable amounts:</strong> &ldquo;An amount
+remitted to a foreign country is not an amount of foreign income tax paid to the extent that
+it is reasonably certain that the amount will be refunded, rebated, abated, or forgiven. It is
+reasonably certain that an amount will be refunded, rebated, abated, or forgiven to the extent
+the amount exceeds a reasonable approximation of final foreign income tax liability to the
+foreign country.&rdquo;</p></blockquote>
+<p>Read plainly: the part of the TCS that gets refunded in India was never a creditable US
+foreign tax in the first place, no matter how the Indian return characterises it. A dual
+filer who claims the full 20% as a dollar-for-dollar Section 901 credit &mdash; because every
+Indian-facing article calls TCS &ldquo;fully creditable&rdquo; &mdash; is claiming a credit
+for money the Indian government is going to send back.</p>
+</div>
+
+<h2>2. TCS is collected on the remittance, not on income &mdash; which is exactly why the refund case is common, not exceptional</h2>
+<p>The statute is unambiguous about what triggers collection: the act of remitting money
+abroad, not the presence of taxable income in that remittance.</p>
+<blockquote><p><strong>Income-tax Act, 2025, &sect;394(1), Table Sl. No. 7</strong> (successor to
+the former &sect;206C(1G) of the Income-tax Act, 1961): &ldquo;Remittance under the
+Liberalised Remittance Scheme of an amount or aggregate of the amounts exceeding ten lakh
+rupees&rdquo; &mdash; collected by the &ldquo;Authorised dealer&rdquo; at &ldquo;20% for
+purposes other than education or medical treatment.&rdquo;</p></blockquote>
+<p>Nothing in that table asks whether the remitted money is income at all. A resident who
+remits ten years of accumulated, already-taxed savings to fund an overseas property purchase
+has TCS collected on the full transferred amount, even though little or none of it represents
+current-year income with a matching current-year Indian tax liability. The RBI&rsquo;s own
+Master Direction on the Scheme confirms the plumbing: it caps total outward remittance at
+USD 2,50,000 per financial year per resident individual, requires a PAN on every Form A2, and
+places no requirement that the remitted sum be income rather than capital &mdash; the
+Liberalised Remittance Scheme is a foreign-exchange control, not an income concept. That gap
+between what triggers TCS (the remittance) and what a final Indian tax bill is computed on
+(net taxable income) is precisely the gap that produces a refund, and precisely the gap that
+Rev. Proc.-style Indian commentary does not carry over into the US analysis.</p>
+
+<div class="box warn">
+<span class="tag t-warn">A second, unresolved layer</span>
+<h3 style="margin-top:0">3. Even the non-refunded portion needs a foreign-source income category to attach to</h3>
+<p>Section 901 credits are not a single pool &mdash; Section 904 requires foreign tax to be
+matched against foreign-source income within the correct limitation category before it can
+actually offset US tax. TCS is assessed against the remitted amount as a whole and only later
+netted against the remitter&rsquo;s aggregate Indian liability; it is not tagged, at the point
+of collection, to any specific item of foreign-source income. Whether &mdash; and how &mdash;
+a preparer allocates the non-refunded portion of TCS to a Section 904 category was not
+resolved by reading Reg. 1.901-2 alone; the statute and its own sourcing rules were not read
+in full this pass. <strong>This is flagged as an open question, not answered here.</strong> A
+remitter funding a purchase from already-taxed principal may find that even the surviving,
+non-refunded slice of TCS has no foreign-source income to attach to at all.</p>
+</div>
+
+<h2>4. What the strongest India-side guides get right &mdash; and where they stop</h2>
+<p>The best LRS/TCS explainers found are detailed and accurate on India&rsquo;s own rules:
+the rate history across the 2020, 2023 and 2024 Finance Acts, the Rs 10 lakh threshold, the
+Form 26AS/AIS reconciliation trail, and the Form 12BAA mechanism that lets a salaried employee
+recover TCS through reduced monthly withholding instead of waiting for a refund the following
+year. Several of them use the word &ldquo;creditable&rdquo; prominently, and one even
+discusses Form 67 (the mechanism for claiming an Indian credit for tax paid abroad) on the
+same page as TCS. None of them run the reverse direction: whether TCS collected in India
+survives as a US Section 901 credit for a remitter who also files in the US. That is not a
+gap in their competence &mdash; it is simply outside the audience they are writing for. It is,
+however, exactly the audience this page is for.</p>
+
+<h2>What this changes in practice</h2>
+<ul>
+<li>Before claiming TCS as a US foreign tax credit, compare the TCS collected against the
+remitter&rsquo;s <em>actual, final</em> Indian tax liability for that year &mdash; not the
+gross amount collected at the bank. Only the portion that is not reasonably certain to be
+refunded is a candidate for Section 901 treatment.</li>
+<li>A remittance funded from savings, inheritance, or other already-taxed principal is the
+highest-risk case for over-claiming: TCS is collected in full regardless of whether the money
+represents current-year income, so the refundable share can be large.</li>
+<li>Form 12BAA changes the <em>timing</em> of TCS recovery in India (through reduced salary
+withholding rather than a later refund) but does not change this analysis &mdash; the amount
+recovered through Form 12BAA is, by definition, not part of final Indian tax liability either.</li>
+<li>This page does not resolve the Section 904 basket-allocation question in (3). Treat that
+as open, not as settled in either direction.</li>
+</ul>
+
+<h2>Questions worth putting to a preparer</h2>
+<ol>
+<li>Are you claiming the gross TCS collected as a foreign tax credit, or only the portion that
+survives after netting against final Indian tax liability for the year?</li>
+<li>Has the source of the remitted funds been checked &mdash; is this a remittance of
+income, or of already-taxed principal that will generate little Indian tax and a large
+refund?</li>
+<li>If Form 12BAA was used to recover TCS through reduced salary withholding, has that
+recovered amount been excluded from the US credit claim?</li>
+<li>What foreign-source income, and what Section 904 category, is the surviving TCS being
+matched against?</li>
+<li>Is your position supported by a reading of Reg. 1.901-2 itself, or by the assumption that
+whatever India calls &ldquo;creditable&rdquo; is automatically creditable in the US too?</li>
+</ol>
+
+<footer>
+<p><strong>This is not tax advice.</strong> It is a reading of primary documents, published so
+that the questions can be asked. It creates no professional relationship, computes no tax, and
+should not be relied on for a filing position. Where a claim could not be confirmed directly
+against a primary source in this pass, this page says so rather than filling the gap.</p>
+<p>Primary sources:
+<a href="https://www.law.cornell.edu/cfr/text/26/1.901-2">26 CFR 1.901-2</a> &middot;
+<a href="https://www.incometaxindia.gov.in/w/section-394-6">Income-tax Act, 2025, &sect;394</a> &middot;
+<a href="https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=10192">RBI Master Direction &mdash; Liberalised Remittance Scheme</a></p>
+<p>Last reviewed 29 August 2026.</p>
+</footer>
+</div>
