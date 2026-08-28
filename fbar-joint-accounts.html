@@ -1,0 +1,166 @@
+<title>The Joint Account You Didn't Know You Owned</title>
+<style>
+:root{--bg:#fdfcfa;--panel:#fff;--ink:#1a1a1a;--mut:#5a5a5a;--line:#e5e2db;
+ --acc:#7a4a1f;--warn:#8a5a00;--warn-bg:#fdf7ea;--stop:#8c2f1c;--stop-bg:#fdf1ed}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#16161a;--panel:#1d1e23;
+ --ink:#eceef2;--mut:#a2a8b2;--line:#2d3038;--acc:#d9a86a;--warn:#dfb463;--warn-bg:#2a2418;
+ --stop:#e79178;--stop-bg:#2b1c17}}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);margin:0;padding:0 1.15rem 6rem;
+ font:16.5px/1.65 Charter,Georgia,"Iowan Old Style",serif}
+.w{max-width:730px;margin:0 auto}
+header{padding:4rem 0 1.5rem}
+h1{font-size:clamp(1.9rem,5vw,2.7rem);line-height:1.12;margin:0 0 .6rem;letter-spacing:-.02em}
+.sub{color:var(--mut);margin:0;font-size:1.05rem}
+.stamp{margin-top:1.6rem;font:500 .8rem/1.5 ui-sans-serif,system-ui,sans-serif;
+ color:var(--mut);letter-spacing:.04em;text-transform:uppercase}
+h2{font-size:1.35rem;margin:3rem 0 .3rem;letter-spacing:-.01em}
+h3{font-size:1rem;margin:1.8rem 0 .3rem;font-family:ui-sans-serif,system-ui,sans-serif}
+p{margin:.85rem 0}
+.lede{font-size:1.1rem;color:var(--mut)}
+blockquote{margin:1.1rem 0;padding:.85rem 1.1rem;border-left:3px solid var(--acc);
+ background:var(--panel);font-size:.97rem}
+blockquote p{margin:.3rem 0}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:7px;
+ padding:1.1rem 1.25rem;margin:1.4rem 0}
+.box.stop{border-color:var(--stop);background:var(--stop-bg)}
+.box.warn{border-color:var(--warn);background:var(--warn-bg)}
+.tag{display:inline-block;font:600 .68rem/1 ui-sans-serif,system-ui,sans-serif;
+ text-transform:uppercase;letter-spacing:.09em;padding:.3rem .55rem;border-radius:4px;
+ border:1px solid currentColor;margin-bottom:.6rem}
+.t-stop{color:var(--stop)} .t-warn{color:var(--warn)}
+table{width:100%;border-collapse:collapse;margin:1.2rem 0;
+ font:.9rem/1.5 ui-sans-serif,system-ui,sans-serif}
+th,td{text-align:left;padding:.55rem .6rem;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:.72rem;text-transform:uppercase;letter-spacing:.07em;color:var(--mut)}
+.scroll{overflow-x:auto;margin:0 -1.15rem;padding:0 1.15rem}
+ol,ul{padding-left:1.3rem}
+li{margin:.45rem 0}
+a{color:var(--acc)}
+footer{margin-top:4rem;padding-top:1.6rem;border-top:1px solid var(--line);
+ color:var(--mut);font:.87rem/1.6 ui-sans-serif,system-ui,sans-serif}
+code{font-size:.9em;background:var(--panel);padding:.1rem .3rem;border-radius:3px}
+nav.series{font:500 .8rem/1.5 ui-sans-serif,system-ui,sans-serif;color:var(--mut);
+ margin:0 0 .4rem;letter-spacing:.02em}
+nav.series a{color:var(--mut);text-decoration:underline}
+</style>
+<div class="w">
+<header>
+<nav class="series">Unsettled questions, part 2 &middot; <a href="index.html">Part 1: PPF, EPF, NPS, ULIPs</a> &middot; <a href="inherited-property-sale.html">Part 3: selling inherited property &rarr;</a> &middot; <a href="green-card-treaty-nonresident.html">Part 4: the green-card treaty election &rarr;</a></nav>
+<h1>The joint account you didn&rsquo;t know you owned, for FBAR purposes</h1>
+<p class="sub">Being named on a parent&rsquo;s Indian bank account puts a US person on the
+hook for FBAR &mdash; whose money it is has nothing to do with it. Read against 31 CFR
+1010.350 directly, not the summaries.</p>
+<p class="stamp">Sources read in full &middot; 31 CFR 1010.350 &middot; IRS FBAR resource
+page &middot; FinCEN Form 114a</p>
+</header>
+
+<p class="lede">Almost every US-based FBAR guide aimed at Indian families gets the basic
+rule right: foreign accounts over the threshold must be reported. Fewer get the joint-account
+mechanics right, because the regulation&rsquo;s actual test &mdash; who is the <em>owner of
+record</em> &mdash; is easy to misread as a question about whose money is in the account. It
+isn&rsquo;t. What follows is what 31 CFR 1010.350 actually says, read directly rather than
+through a summary.</p>
+
+<div class="box stop">
+<span class="tag t-stop">The one most often missed</span>
+<h3 style="margin-top:0">1. Being named on the account is the whole test &mdash; source of funds is irrelevant</h3>
+<p>The common assumption: &ldquo;It&rsquo;s my father&rsquo;s NRE account. I&rsquo;m only on
+it so the bank doesn&rsquo;t freeze it if something happens to him. I&rsquo;ve never put money
+in or taken money out.&rdquo; None of that matters under the regulation.</p>
+<blockquote><p><strong>31 CFR 1010.350(e)(1), Financial interest &mdash; owner of record:</strong>
+&ldquo;A United States person has a financial interest in each bank, securities, or other
+financial account in a foreign country for which&hellip; the United States person is the owner
+of record or holder of legal title, whether the account is maintained for his or her own
+benefit or for the benefit of others including non-United States persons.&rdquo;</p></blockquote>
+<p>Being listed as a joint holder makes you the &ldquo;owner of record.&rdquo; The clause
+&ldquo;whether&hellip;for his or her own benefit or for the benefit of others&rdquo; closes off
+the exact argument most people reach for. There is no economic-interest test, no
+source-of-funds test, and no exception for accounts opened purely for succession convenience.
+Section (a) sets two independent triggers &mdash; &ldquo;financial interest in, <em>or</em>
+signature or other authority over&rdquo; &mdash; so satisfying either one alone is enough.</p>
+</div>
+
+<h2>2. The spousal joint-account exception does not reach a parent-child account</h2>
+<p>FBAR guidance correctly tells married couples they can skip a duplicate filing. What gets
+lost is how narrow that exception is, and that it has no parent-child, sibling, or
+adult-child-with-parent equivalent.</p>
+<blockquote><p><strong>IRS, Report of Foreign Bank and Financial Accounts (FBAR):</strong>
+&ldquo;You don&rsquo;t need to file an FBAR for the calendar year if&hellip; You jointly own
+all your foreign financial accounts with your spouse and: You completed and signed FinCEN
+Form 114a authorizing your spouse to file on your behalf, and your spouse reports the jointly
+owned accounts on a timely-filed signed FBAR.&rdquo;</p></blockquote>
+<p>Read closely, this exception has three conditions that a parent-child account fails on the
+first one: the co-owner must be a <strong>spouse</strong>. An NRI parent is not a spouse, and
+in the ordinary case is not even a US person, so there is no possibility of designating them
+as the filer under Form 114a in the first place. <strong>Every US-person child named on an
+Indian parent&rsquo;s account must file their own FBAR every year the account exceeds the
+threshold &mdash; there is no shortcut.</strong></p>
+
+<h2>3. The narrow exceptions in the regulation are aimed at bank employees, not families</h2>
+<p>31 CFR 1010.350(f)(2) does carve out several situations where signature authority does not
+require reporting. Reading the actual list makes clear who they are for:</p>
+<blockquote><p>&ldquo;An officer or employee of a bank that is examined by the [OCC, Federal
+Reserve, FDIC, OTS, or NCUA] need not report&hellip; if the officer or employee has no
+personal financial interest in the account&hellip;&rdquo; &mdash; plus parallel carve-outs for
+officers of SEC/CFTC-registered entities, US military banking facilities, and bank-to-bank
+correspondent/nostro accounts.</p></blockquote>
+<p>Every exception in the subsection is occupational &mdash; a bank officer, a regulated
+entity&rsquo;s employee, a military installation, an interbank settlement account. None of
+them contemplate an ordinary family member added to a personal account for convenience. A
+plain reading finds nothing in (f)(2) that reaches the family case, which means the general
+rule in (a) and (e)(1) applies without modification.</p>
+
+<div class="box warn">
+<span class="tag t-warn">Reported, not confirmed against the primary instructions</span>
+<h3 style="margin-top:0">4. Each joint owner reports the full account value, not a pro-rata share</h3>
+<p>Every FBAR-preparer site checked states that a joint owner must report the account&rsquo;s
+full maximum value during the year, not a fractional share reflecting actual ownership or
+contribution. That is consistent with how FinCEN Form 114 is structured &mdash; it asks for
+&ldquo;maximum value of account during calendar year,&rdquo; with no field for a co-owner's
+percentage &mdash; but the FinCEN line-item filing instructions PDF that states this most
+directly could not be rendered as text during this research pass (only the search-indexed
+secondary sources were confirmed). <strong>Treat this specific point as well-corroborated but
+not independently read from FinCEN's own instructions in this pass</strong> &mdash; a
+reasonable next step before relying on it for a filing.</p>
+</div>
+
+<h2>What this changes in practice</h2>
+<ul>
+<li>An NRE or NRO account opened jointly with a US-citizen or green-card-holder child, for
+succession planning only, is reportable by that child &mdash; every year, at the full account
+value &mdash; regardless of who funded it or who uses it.</li>
+<li>This is a per-account, per-person test. A family with three Indian accounts held jointly
+across two US-person children can produce six separate reporting obligations, not two.</li>
+<li>FBAR (FinCEN Form 114) and Form 8938 (FATCA) use different definitions of reportable
+interest and different thresholds &mdash; passing one test says nothing about the other. This
+page addresses FBAR only.</li>
+<li>None of this turns on NRE vs. NRO account type. The distinction matters for Indian tax and
+repatriability, not for whether the account is "foreign" under 31 CFR 1010.350.</li>
+</ul>
+
+<h2>Questions worth putting to a preparer</h2>
+<ol>
+<li>Am I named as a joint owner, or do I only have signature authority? The regulation treats
+these as two independent triggers &mdash; check both, not just one.</li>
+<li>Have you confirmed no 31 CFR 1010.350(f)(2) exception applies, rather than assuming family
+accounts are covered by some general carve-out? Read the list &mdash; it names specific
+occupations, not relationships.</li>
+<li>Is every account being reported at its own full maximum value, or has a pro-rata share
+been assumed anywhere?</li>
+<li>Are FBAR and Form 8938 being assessed as separate tests with separate thresholds, rather
+than treating an FBAR filing as if it also resolves 8938?</li>
+</ol>
+
+<footer>
+<p><strong>This is not tax advice.</strong> It is a reading of primary documents, published so
+that the questions can be asked. It creates no professional relationship, computes no
+penalty exposure, and should not be relied on for a filing position. Where a claim could not
+be confirmed directly against a primary source in this pass, this page says so rather than
+filling the gap.</p>
+<p>Primary sources:
+<a href="https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1010/subpart-C/section-1010.350">31 CFR 1010.350</a> &middot;
+<a href="https://www.irs.gov/businesses/small-businesses-self-employed/report-of-foreign-bank-and-financial-accounts-fbar">IRS FBAR resource page</a></p>
+<p>Last reviewed 29 August 2026.</p>
+</footer>
+</div>
