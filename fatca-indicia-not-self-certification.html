@@ -1,0 +1,225 @@
+<title>Your Bank's Indicia Overrides Your FATCA Form</title>
+<style>
+:root{--bg:#fdfcfa;--panel:#fff;--ink:#1a1a1a;--mut:#5a5a5a;--line:#e5e2db;
+ --acc:#7a4a1f;--warn:#8a5a00;--warn-bg:#fdf7ea;--stop:#8c2f1c;--stop-bg:#fdf1ed}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#16161a;--panel:#1d1e23;
+ --ink:#eceef2;--mut:#a2a8b2;--line:#2d3038;--acc:#d9a86a;--warn:#dfb463;--warn-bg:#2a2418;
+ --stop:#e79178;--stop-bg:#2b1c17}}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);margin:0;padding:0 1.15rem 6rem;
+ font:16.5px/1.65 Charter,Georgia,"Iowan Old Style",serif}
+.w{max-width:730px;margin:0 auto}
+header{padding:4rem 0 1.5rem}
+h1{font-size:clamp(1.9rem,5vw,2.7rem);line-height:1.12;margin:0 0 .6rem;letter-spacing:-.02em}
+.sub{color:var(--mut);margin:0;font-size:1.05rem}
+.stamp{margin-top:1.6rem;font:500 .8rem/1.5 ui-sans-serif,system-ui,sans-serif;
+ color:var(--mut);letter-spacing:.04em;text-transform:uppercase}
+h2{font-size:1.35rem;margin:3rem 0 .3rem;letter-spacing:-.01em}
+h3{font-size:1rem;margin:1.8rem 0 .3rem;font-family:ui-sans-serif,system-ui,sans-serif}
+p{margin:.85rem 0}
+.lede{font-size:1.1rem;color:var(--mut)}
+blockquote{margin:1.1rem 0;padding:.85rem 1.1rem;border-left:3px solid var(--acc);
+ background:var(--panel);font-size:.97rem}
+blockquote p{margin:.3rem 0}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:7px;
+ padding:1.1rem 1.25rem;margin:1.4rem 0}
+.box.stop{border-color:var(--stop);background:var(--stop-bg)}
+.box.warn{border-color:var(--warn);background:var(--warn-bg)}
+.tag{display:inline-block;font:600 .68rem/1 ui-sans-serif,system-ui,sans-serif;
+ text-transform:uppercase;letter-spacing:.09em;padding:.3rem .55rem;border-radius:4px;
+ border:1px solid currentColor;margin-bottom:.6rem}
+.t-stop{color:var(--stop)} .t-warn{color:var(--warn)}
+table{width:100%;border-collapse:collapse;margin:1.2rem 0;
+ font:.9rem/1.5 ui-sans-serif,system-ui,sans-serif}
+th,td{text-align:left;padding:.55rem .6rem;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:.72rem;text-transform:uppercase;letter-spacing:.07em;color:var(--mut)}
+.scroll{overflow-x:auto;margin:0 -1.15rem;padding:0 1.15rem}
+ol,ul{padding-left:1.3rem}
+li{margin:.45rem 0}
+a{color:var(--acc)}
+footer{margin-top:4rem;padding-top:1.6rem;border-top:1px solid var(--line);
+ color:var(--mut);font:.87rem/1.6 ui-sans-serif,system-ui,sans-serif}
+code{font-size:.9em;background:var(--panel);padding:.1rem .3rem;border-radius:3px}
+nav.series{font:500 .8rem/1.5 ui-sans-serif,system-ui,sans-serif;color:var(--mut);
+ margin:0 0 .4rem;letter-spacing:.02em}
+nav.series a{color:var(--mut);text-decoration:underline}
+</style>
+<div class="w">
+<header>
+<nav class="series">Unsettled questions, part 7 &middot; <a href="index.html">Part 1: PPF, EPF, NPS, ULIPs</a> &middot; <a href="fbar-joint-accounts.html">Part 2: joint accounts and FBAR</a> &middot; <a href="inherited-property-sale.html">Part 3: selling inherited property</a> &middot; <a href="green-card-treaty-nonresident.html">Part 4: the green-card treaty election</a> &middot; <a href="lrs-tcs-foreign-tax-credit.html">Part 5: LRS TCS and the US foreign tax credit</a> &middot; <a href="huf-us-classification.html">Part 6: HUF classification and the karta&rsquo;s liability</a></nav>
+<h1>&ldquo;Keep your FATCA self-certification updated&rdquo; is not what the regulation says the bank has to do</h1>
+<p class="sub">Every guide on updating your Indian bank after a move to the US treats the
+self-certification form as the thing that decides your FATCA status. The India-US IGA, word
+for word, gives the bank&rsquo;s own file &mdash; not your form &mdash; the power to overrule it.</p>
+<p class="stamp">Sources read in full &middot; CBDT Guidance Note on Implementation of Reporting
+Requirements under Rules 114F&ndash;114H, 31 Dec 2015 (reproducing Annex I of the India-US
+FATCA IGA verbatim) &middot; Income-tax Rules, 1962, Rules 114F&ndash;114H</p>
+</header>
+
+<p class="lede">Search the market&rsquo;s own vocabulary &mdash; &ldquo;FATCA self-certification
+not updated,&rdquo; &ldquo;Indian bank still thinks I&rsquo;m a resident&rdquo; &mdash; and two
+genuinely competent results surface: a detailed article from Golding &amp; Golding, a
+US international-tax law firm, and a shorter piece from indiafornri.com. Both correctly explain
+that Indian banks report US-person accounts to the IRS under the India-US Inter-Governmental
+Agreement (IGA), and both advise keeping your self-certification current. Neither reads the
+due-diligence text of the IGA itself, reproduced word for word in CBDT&rsquo;s own Guidance
+Note. That text does not describe self-certification as the control. It describes the bank&rsquo;s
+own account record &mdash; address, phone number, standing instructions, power of attorney,
+place of birth &mdash; as the control, with self-certification demoted to one input the bank is
+affirmatively required to override when the record contradicts it.</p>
+
+<div class="box stop">
+<span class="tag t-stop">The one most often missed</span>
+<h3 style="margin-top:0">1. A &ldquo;change in circumstances&rdquo; forces the bank to
+disregard your own self-certification, not just refresh it</h3>
+<p>The advice repeated everywhere is to keep your FATCA/CRS self-certification form current.
+That is necessary. It is not the mechanism the regulation actually describes for what happens
+when it goes stale. Paragraph 5.7.6 of the Guidance Note &mdash; on new individual accounts,
+where a self-certification was validly obtained at account opening &mdash; states the rule
+directly:</p>
+<blockquote><p><strong>Paragraph 5.7.6:</strong> &ldquo;Where a self-certification has been
+obtained for a new individual account and if there is a change of circumstances with respect
+to such account which causes the reporting financial institution to know, or have reason to
+know, that the said self-certification is incorrect or unreliable, the reporting financial
+institution <em>shall not rely on the said self-certification</em> and shall obtain a valid
+self-certification&hellip; If the Reporting Financial Institution is unable to obtain a valid
+self-certification, the Reporting Financial Institution shall treat the account as a
+reportable account with respect to each such country or territory outside India for which
+indicia is identified.&rdquo;</p></blockquote>
+<p>Read that sequence again: the bank does not wait for you to update anything. A change in
+circumstances that contradicts your form &mdash; a new address, a new phone number, standing
+instructions to move funds abroad &mdash; puts the bank under a duty to stop relying on what
+you told it, and to report the account as reportable by default if it cannot get a corrected
+form. The form is not the source of truth the bank defers to. It is a claim the bank&rsquo;s
+own record can override.</p>
+</div>
+
+<h2>2. The same logic runs through preexisting accounts, via &ldquo;indicia,&rdquo; not
+self-certification at all</h2>
+<p>For accounts that existed before FATCA due diligence began, there was often no
+self-certification to begin with. Annex I of the IGA &mdash; reproduced verbatim in the
+Guidance Note&rsquo;s appendix &mdash; instead runs entirely on <strong>indicia</strong>: facts
+already sitting in the bank&rsquo;s electronic and paper records.</p>
+<blockquote><p><strong>Annex I, section II.B(1):</strong> the bank must search its records for
+&ldquo;(a) Identification of the Account Holder as a U.S. citizen or resident; (b) Unambiguous
+indication of a U.S. place of birth; (c) Current U.S. mailing or residence address&hellip;
+(d) Current U.S. telephone number; (e) Standing instructions to transfer funds to an account
+maintained in the United States; (f) Currently effective power of attorney or signatory
+authority granted to a person with a U.S. address; or (g) An &lsquo;in-care-of&rsquo; or
+&lsquo;hold mail&rsquo; address that is the sole address&hellip; on file.&rdquo;</p></blockquote>
+<blockquote><p><strong>Annex I, section II.B(3):</strong> &ldquo;If any of the U.S. indicia
+&hellip; are discovered in the electronic search, or if there is a change in circumstances
+that results in one or more U.S. indicia being associated with the account, then the Reporting
+Indian Financial Institution <em>must treat the account as a U.S. Reportable Account</em>
+unless it elects to apply&rdquo; the curing exceptions.</p></blockquote>
+<p>None of this asks what the account holder self-certified. It asks what is already in the
+file. An Indian resident&rsquo;s account with no US address, no US phone number and no US
+place of birth on file generates no indicia at all and is not touched by this mechanism &mdash;
+which cuts the other way against the popular fear (repeated in general form by the
+Golding &amp; Golding piece) that simply not updating a bank after a move to the US is, by
+itself, what triggers detection. It is not the silence that triggers it. It is a specific,
+listed fact landing in the bank&rsquo;s own record.</p>
+
+<h2>3. &ldquo;Curing&rdquo; an indicium needs a specific document set, not an updated form</h2>
+<p>Where an indicium is found, the IGA does allow the bank to treat the account as
+non-reportable anyway &mdash; but only by collecting a defined document set, not by accepting
+an updated self-certification form on its own. For most indicia (a foreign mailing address,
+phone number, standing instruction, or power of attorney), paragraph 5.4.7 of the Guidance
+Note requires a self-certification <em>plus</em> independent documentary evidence supporting
+it. For the specific case of an unambiguous US place of birth, the bar is higher again:</p>
+<blockquote><p><strong>Paragraph 5.4.8, curing a US place of birth:</strong> the bank must
+obtain (i) &ldquo;a self-certification that the account holder is neither a citizen of the
+United States of America nor its resident for tax purposes&rdquo;; (ii) &ldquo;a passport or
+other Government-issued identification evidencing the account holder&rsquo;s citizenship or
+nationality in a country other than the United States&rdquo;; and (iii) &ldquo;a copy of the
+account holder&rsquo;s certificate of loss of nationality of the United States&hellip; or a
+reasonable explanation of &mdash; (1) the reason[s] the account holder does not have such a
+certificate despite relinquishing citizenship&hellip; or (2) the reason[s] the account holder
+did not obtain citizenship of the United States at birth.&rdquo;</p></blockquote>
+<p>A person with a US place of birth on file &mdash; someone born during a parent&rsquo;s
+posting, study, or work stint in the US and later raised and resident in India &mdash; sits
+inside this specific three-document curing requirement the moment that field is on record,
+regardless of whether they have ever held US citizenship, a green card, or US tax residence.
+Neither competitor found addresses the place-of-birth curing rule at all.</p>
+
+<div class="box warn">
+<span class="tag t-warn">Not the same question as page 2</span>
+<p style="margin-top:0">This page is not the &ldquo;accidental American&rdquo; literature that
+already exists in depth for Canada, Switzerland and the EU (Isaac Brock Society,
+citizenshipsolutions.ca, and others read at title/snippet level, not built on here) &mdash;
+that body of work already covers place-of-birth indicia and CLN curing generically, across
+jurisdictions, using the same Model 1 IGA language. What neither that literature nor the two
+India-specific competitors found does is connect the general Annex I mechanics to the
+India-specific instrument: the CBDT Guidance Note that domesticates Rules 114F&ndash;114H and
+reproduces this exact Annex I text for Indian Reporting Financial Institutions. This page is
+built on that instrument, read directly, not on the general international discussion of
+accidental Americans.</p>
+</div>
+
+<h2>4. What each trigger actually requires</h2>
+<div class="scroll"><table>
+<thead><tr><th>Situation</th><th>Governing text</th><th>What the bank must do</th></tr></thead>
+<tbody>
+<tr><th scope="row">Self-cert given, later contradicted by a change in circumstances</th><td>Guidance Note &sect;5.7.6</td><td>Stop relying on the old self-cert; get a new one or treat the account as reportable by default</td></tr>
+<tr><th scope="row">Preexisting account, no US indicia found</th><td>Annex I &sect;II.B(2)</td><td>No action required &mdash; until a change in circumstances introduces an indicium</td></tr>
+<tr><th scope="row">Preexisting account, an indicium found (address, phone, standing instruction, POA)</th><td>Annex I &sect;II.B(3)-(4); Guidance Note &sect;5.4.7</td><td>Reportable by default, unless cured with self-cert + independent documentary evidence</td></tr>
+<tr><th scope="row">Preexisting account, unambiguous US place of birth</th><td>Annex I &sect;II.B(4)(a); Guidance Note &sect;5.4.8</td><td>Reportable by default, unless cured with self-cert + non-US passport + CLN or a stated reason for neither</td></tr>
+<tr><th scope="row">High-value account with a relationship manager who has actual knowledge</th><td>Annex I &sect;III.B(4)</td><td>Reportable regardless of what any form says</td></tr>
+</tbody></table></div>
+
+<h2>5. Falsification: what was checked before this was written</h2>
+<p>Search on the market&rsquo;s vocabulary (&ldquo;NRI KYC not updated FATCA self-certification
+mismatch Indian bank India-US IGA&rdquo;) surfaces two genuinely competent, dedicated
+competitors, both read in full via <code>get_page_text</code>, not title-matched:
+Golding &amp; Golding&rsquo;s &ldquo;Aadhaar Card &amp; FATCA Rules for Disclosing Indian Bank
+Accounts&rdquo; (thorough on the Aadhaar-linking mechanism that separately exposes a
+nonresident&rsquo;s true status, on willfulness/penalty exposure, and on the FBAR/FATCA
+distinction) and indiafornri.com&rsquo;s &ldquo;FATCA &mdash; How India Reports Your Accounts
+to the US&rdquo; (correctly lists US address/phone/place-of-birth as indicia in passing).
+Neither quotes Annex I, the Guidance Note, or any curing provision; both frame the fix as
+&ldquo;update your self-certification,&rdquo; not as the regulation&rsquo;s own
+change-in-circumstances trigger or its documentary curing requirements. A separate search
+confirmed the general &ldquo;accidental American&rdquo; / US-place-of-birth literature is
+heavily saturated internationally (Isaac Brock Society, citizenshipsolutions.ca, seatnow.org,
+NYU Law Global, Springer Nature, Taxes for Expats&rsquo; 2026 guide) &mdash; but none of it is
+India-specific, and none cites the CBDT Guidance Note that domesticates the same Annex I text
+for Indian Reporting Financial Institutions. Two other candidate topics were screened and
+killed outright before this one was built: a US citizen who was never an Indian resident
+inheriting or receiving a gift of Indian property under FEMA (killed by
+rashminsanghvi.com&rsquo;s July 2025 &ldquo;FEMA &mdash; Succession issues,&rdquo; a 75-page
+practitioner deck read in full via <code>pdftotext</code>, which already quotes Rule 24(c) of
+the NDI Rules verbatim and states precisely that &ldquo;if the heir is an outright foreigner
+(not an NRI or OCI)&hellip; an approval is required from RBI to hold the property on
+inheritance,&rdquo; naming the exact foreign-citizen-without-OCI-card fact pattern this
+candidate intended to cover); and ULIP maturity proceeds under PFIC/&sect;7702 (killed by
+investmates.io&rsquo;s dedicated &ldquo;ULIPs, ELSS, and NPS: Are they PFICs Under US Tax
+Law?&rdquo; and two kkca.io articles, all stating the PFIC/non-qualifying-insurance framing
+directly).</p>
+
+<h2>Questions worth putting to a preparer or the bank</h2>
+<ol>
+<li>Has the bank actually identified any of the seven listed US indicia on this account, or is
+the concern purely that the self-certification form is out of date?</li>
+<li>If an indicium exists, has it been cured with the specific document set the IGA requires
+(self-certification plus independent documentary evidence), or only with an updated form?</li>
+<li>If the indicium is an unambiguous US place of birth, has the three-part curing set
+(non-US passport, plus a certificate of loss of nationality or a stated reason for not having
+one) actually been assembled, not just discussed?</li>
+<li>Has anyone asked the bank whether a relationship manager has actual knowledge of US
+status that would make the indicia analysis moot?</li>
+<li>Separately from what the bank reports: has Form 8938 and the FBAR been filed to match what
+the bank is required to report, regardless of how the bank&rsquo;s own determination comes
+out?</li>
+</ol>
+
+<footer>
+<p><strong>This is not tax advice.</strong> It is a reading of primary documents, published so
+that the questions can be asked. It creates no professional relationship, computes no tax, and
+should not be relied on for a filing position. Where a claim could not be confirmed directly
+against a primary source in this pass, this page says so rather than filling the gap.</p>
+<p>Primary sources: CBDT Guidance Note on Implementation of Reporting Requirements under Rules
+114F&ndash;114H of the Income-tax Rules, 1962 (31 Dec 2015), which reproduces Annex I of the
+India-US FATCA Inter-Governmental Agreement in full.</p>
+<p>Last reviewed 30 August 2026.</p>
+</footer>
+</div>
