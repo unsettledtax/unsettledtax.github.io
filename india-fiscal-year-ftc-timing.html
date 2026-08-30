@@ -1,0 +1,208 @@
+<title>Your Indian Advance Tax Doesn&rsquo;t Land in a Single US Tax Year</title>
+<style>
+:root{--bg:#fdfcfa;--panel:#fff;--ink:#1a1a1a;--mut:#5a5a5a;--line:#e5e2db;
+ --acc:#7a4a1f;--warn:#8a5a00;--warn-bg:#fdf7ea;--stop:#8c2f1c;--stop-bg:#fdf1ed}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#16161a;--panel:#1d1e23;
+ --ink:#eceef2;--mut:#a2a8b2;--line:#2d3038;--acc:#d9a86a;--warn:#dfb463;--warn-bg:#2a2418;
+ --stop:#e79178;--stop-bg:#2b1c17}}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);margin:0;padding:0 1.15rem 6rem;
+ font:16.5px/1.65 Charter,Georgia,"Iowan Old Style",serif}
+.w{max-width:730px;margin:0 auto}
+header{padding:4rem 0 1.5rem}
+h1{font-size:clamp(1.9rem,5vw,2.7rem);line-height:1.12;margin:0 0 .6rem;letter-spacing:-.02em}
+.sub{color:var(--mut);margin:0;font-size:1.05rem}
+.stamp{margin-top:1.6rem;font:500 .8rem/1.5 ui-sans-serif,system-ui,sans-serif;
+ color:var(--mut);letter-spacing:.04em;text-transform:uppercase}
+h2{font-size:1.35rem;margin:3rem 0 .3rem;letter-spacing:-.01em}
+h3{font-size:1rem;margin:1.8rem 0 .3rem;font-family:ui-sans-serif,system-ui,sans-serif}
+p{margin:.85rem 0}
+.lede{font-size:1.1rem;color:var(--mut)}
+blockquote{margin:1.1rem 0;padding:.85rem 1.1rem;border-left:3px solid var(--acc);
+ background:var(--panel);font-size:.97rem}
+blockquote p{margin:.3rem 0}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:7px;
+ padding:1.1rem 1.25rem;margin:1.4rem 0}
+.box.stop{border-color:var(--stop);background:var(--stop-bg)}
+.box.warn{border-color:var(--warn);background:var(--warn-bg)}
+.tag{display:inline-block;font:600 .68rem/1 ui-sans-serif,system-ui,sans-serif;
+ text-transform:uppercase;letter-spacing:.09em;padding:.3rem .55rem;border-radius:4px;
+ border:1px solid currentColor;margin-bottom:.6rem}
+.t-stop{color:var(--stop)} .t-warn{color:var(--warn)}
+table{width:100%;border-collapse:collapse;margin:1.2rem 0;
+ font:.9rem/1.5 ui-sans-serif,system-ui,sans-serif}
+th,td{text-align:left;padding:.55rem .6rem;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:.72rem;text-transform:uppercase;letter-spacing:.07em;color:var(--mut)}
+.scroll{overflow-x:auto;margin:0 -1.15rem;padding:0 1.15rem}
+ol,ul{padding-left:1.3rem}
+li{margin:.45rem 0}
+a{color:var(--acc)}
+footer{margin-top:4rem;padding-top:1.6rem;border-top:1px solid var(--line);
+ color:var(--mut);font:.87rem/1.6 ui-sans-serif,system-ui,sans-serif}
+code{font-size:.9em;background:var(--panel);padding:.1rem .3rem;border-radius:3px}
+nav.series{font:500 .8rem/1.5 ui-sans-serif,system-ui,sans-serif;color:var(--mut);
+ margin:0 0 .4rem;letter-spacing:.02em}
+nav.series a{color:var(--mut);text-decoration:underline}
+</style>
+<div class="w">
+<header>
+<nav class="series">Unsettled questions, part 9 · <a href="index.html">Part 1: PPF, EPF, NPS, ULIPs</a> · <a href="fbar-joint-accounts.html">Part 2: joint accounts and FBAR</a> · <a href="inherited-property-sale.html">Part 3: selling inherited property</a> · <a href="green-card-treaty-nonresident.html">Part 4: the green-card treaty election</a> · <a href="lrs-tcs-foreign-tax-credit.html">Part 5: LRS TCS and the US foreign tax credit</a> · <a href="huf-us-classification.html">Part 6: HUF classification and the karta’s liability</a> · <a href="fatca-indicia-not-self-certification.html">Part 7: the bank’s indicia beats your FATCA form</a> · <a href="epf-gratuity-not-a-pension.html">Part 8: EPF and gratuity lump sums vs the treaty pension definition</a></nav>
+<h1>India&rsquo;s April&ndash;March tax year doesn&rsquo;t automatically become a single US tax year on Form 1116</h1>
+<p class="sub">Every good Form 1116 guide tells you to gather your Indian TDS and advance tax for
+&ldquo;the year.&rdquo; None of them says which year &mdash; India&rsquo;s, which runs April
+to March, or the US calendar year the credit actually gets claimed in. The regulation that
+answers this has an irrevocable election buried in it that no guide found mentions at all.</p>
+<p class="stamp">Sources read in full &middot; 26 CFR 1.905-1 &middot; 26 U.S. Code &sect;905</p>
+</header>
+
+<p class="lede">This page is for a US citizen or green-card holder who is also an Indian
+taxpayer paying tax through the year &mdash; TDS withheld from salary or an NRO deposit
+month by month, quarterly advance-tax installments, and a final self-assessment payment when
+the Indian return is filed. All of that happens on India&rsquo;s April&ndash;March fiscal
+year. Form 1116 runs on the US calendar year. The guides are excellent at telling you how to
+size the credit. None of them tell you which US tax year an installment paid in, say, February
+belongs to &mdash; or that the answer depends on an accounting-method election you make once,
+for life.</p>
+
+<div class="box stop">
+<span class="tag t-stop">The one most often missed</span>
+<h3 style="margin-top:0">1. The default rule is cash basis: credit falls in the US year you
+actually paid the Indian tax &mdash; not the year the income was earned, and not the Indian
+assessment year</h3>
+<p>Most individuals never make an election and file on the cash method. For a cash-method
+taxpayer, the regulation is direct:</p>
+<blockquote><p><strong>26 CFR 1.905-1(c)(1):</strong> &ldquo;Except as provided in paragraph
+(e) of this section, a taxpayer who uses the cash method of accounting may claim a foreign
+tax credit only in the taxable year in which the foreign income taxes are paid. Generally,
+foreign income taxes are considered paid in the taxable year in which the taxes are remitted
+to the foreign country.&rdquo;</p></blockquote>
+<p>Read against India&rsquo;s own payment calendar, this splits a single Indian tax year
+across two US returns as a matter of course, not as an edge case. The four advance-tax
+installments fall on 15 June, 15 September, 15 December, and 15 March. The June, September,
+and December installments land inside one US calendar year. The March installment, and any
+self-assessment tax paid when the return is filed (typically by 31 July, sometimes later),
+land in the <em>next</em> US calendar year &mdash; even though every one of those payments
+relates to the same Indian financial year and the same Indian income. A cash-method filer who
+gathers &ldquo;this year&rsquo;s Form 26AS&rdquo; and puts the whole figure on one Form 1116 is
+using the Indian assessment year as the organizing unit. The regulation uses the date money
+left the taxpayer&rsquo;s account instead.</p>
+</div>
+
+<h2>2. The accrual election takes the opposite position &mdash; and it can&rsquo;t be
+undone</h2>
+<p>Section 905(a) offers a way out of the payment-date scramble: elect to claim the credit
+on the accrual basis instead, regardless of the taxpayer&rsquo;s regular accounting method for
+everything else.</p>
+<blockquote><p><strong>26 U.S. Code &sect;905(a):</strong> &ldquo;The credits provided in this
+subpart may, at the option of the taxpayer and irrespective of the method of accounting
+employed in keeping his books, be taken in the year in which the taxes of the foreign country
+&hellip; accrued&hellip; If the taxpayer elects to take such credits in the year in which the
+taxes of the foreign country &hellip; accrued, the credits for all subsequent years shall be
+taken on the same basis&rdquo;</p></blockquote>
+<p>That last clause is the trap: this is a once-only, all-future-years election. There is no
+switching back to cash-basis crediting in a later year because it happened to be more
+favorable. The regulation then defines exactly when a fiscal-year foreign tax &ldquo;accrues,&rdquo;
+using a fact pattern that is, in substance, the Indian case:</p>
+<blockquote><p><strong>26 CFR 1.905-1(d)(6)(i), Example 1:</strong> &ldquo;A, a U.S. citizen,
+resides and works in Country X&hellip; Country X has a tax year that begins on April 1 and
+ends on March 31. A&rsquo;s wages are subject to net income tax&hellip; and are subject to
+withholding on a monthly basis by A&rsquo;s employer&hellip; Under paragraph (d)(1) of this
+section, A&rsquo;s liability for Country X net income tax accrues on March 31, Year 2, the
+last day of the Country X taxable year. The Country X net income tax withheld by A&rsquo;s
+employer from A&rsquo;s wages is a reasonable approximation of, and represents an advance
+payment of, A&rsquo;s final net income tax liability for the year, which becomes fixed and
+determinable only at the close of the Country X taxable year. Thus, A cannot claim a credit
+for any portion of the Country X net income tax on A&rsquo;s Federal income tax return for
+Year 1, and may claim a credit for the entire Country X net income tax that accrues on March
+31, Year 2, on A&rsquo;s Federal income tax return for Year 2.&rdquo;</p></blockquote>
+<p>Country X&rsquo;s April&ndash;March tax year in the regulation&rsquo;s own worked example
+is India&rsquo;s tax year. Under the accrual election, none of the monthly TDS or quarterly
+advance-tax installments is separately creditable as it is paid &mdash; each is treated as an
+&ldquo;advance payment&rdquo; of a liability that is not &ldquo;fixed and determinable&rdquo;
+until 31 March, and the entire year&rsquo;s Indian tax becomes creditable in a single US tax
+year: the one in which that 31 March falls. That is the opposite of the cash-basis result in
+(1), where the same installments are split across two US years by payment date.</p>
+
+<div class="box warn">
+<span class="tag t-warn">Why the choice is not cosmetic</span>
+<h3 style="margin-top:0">3. The two methods can produce different credit amounts, not just
+different paperwork</h3>
+<p>Section 904 caps the credit at US tax on foreign-source income for the year, computed
+separately by category, and any excess only carries back one year or forward ten. A taxpayer
+whose Indian tax bill or US taxable income varies year to year &mdash; a large capital gain in
+one Indian financial year, a slow year the next &mdash; can find that bundling an entire
+Indian fiscal year&rsquo;s tax into one US year under the accrual election pushes a chunk of
+otherwise-usable credit into the ten-year carryforward queue, where the cash-basis split
+across two smaller US-year claims might have absorbed more of it directly. Which result is
+better depends on the taxpayer&rsquo;s specific income pattern in the straddle years and is
+not resolved by this page &mdash; the point here is narrower: <strong>the choice exists, it is
+irrevocable once made, and no India-facing guide found names it.</strong></p>
+</div>
+
+<h2>4. What the strongest India-facing guide gets right &mdash; and doesn&rsquo;t reach</h2>
+<p>toolisky.com&rsquo;s &ldquo;Form 1116 for Indian Tax Paid: FTC Guide 2026&rdquo; (read in
+full) is a genuinely thorough India-specific Form 1116 reference: it correctly covers the
+&sect;901/904/27(a) statutory basis, the Form 67-to-Form 44 renumbering under the Income-tax
+Act, 2025, the PFIC interaction for Indian mutual funds, the NIIT gap Form 1116 doesn&rsquo;t
+reach, exchange-rate conventions (&ldquo;a consistently applied annual average&rdquo; for
+recurring income), and two fully worked numeric examples with carryback/carryforward. Every
+worked example treats &ldquo;Indian tax paid for the year&rdquo; as a single figure pulled from
+Form 26AS or an AIS. At no point does it address which US tax year that figure belongs to when
+the underlying payments straddle India&rsquo;s fiscal year, or that a taxpayer elects &mdash;
+permanently &mdash; between two different answers to that question. A dedicated search
+combining &ldquo;Form 1116&rdquo;, &ldquo;India&rdquo;, and either &ldquo;accrual
+election&rdquo; or &ldquo;905(a)&rdquo; returned no India-specific content connecting the two;
+the general cash-vs-accrual distinction for the foreign tax credit is documented (HTJ Tax,
+cloudexpattax.com) but not applied to India&rsquo;s own fiscal-year calendar anywhere found.
+Separately, the popular India-side discourse on the calendar-year/financial-year mismatch (a
+250-plus-comment r/IndiaTax thread and several shorter ones) is entirely about a different
+problem &mdash; reconciling Schedule FA&rsquo;s calendar-year foreign-asset disclosure on the
+<em>Indian</em> return against financial-year income figures &mdash; not about which US year
+absorbs an Indian tax payment on Form 1116.</p>
+
+<h2>What this changes in practice</h2>
+<ul>
+<li>Before assuming &ldquo;this year&rsquo;s Indian tax&rdquo; maps cleanly onto &ldquo;this
+year&rsquo;s Form 1116,&rdquo; check whether the return has ever made a &sect;905(a) accrual
+election. If not, the default is cash basis: each Indian payment is creditable in the US
+calendar year it was actually remitted, which will usually split a single Indian financial
+year&rsquo;s TDS and advance tax across two US returns.</li>
+<li>If an accrual election is being considered to simplify this, weigh it against &sect;905(a)&rsquo;s
+own irrevocability clause &mdash; it binds every future year, not just the one it&rsquo;s made
+for.</li>
+<li>The March 15 advance-tax installment and any self-assessment tax paid alongside the ITR
+are the payments most likely to fall into a different US tax year than the June/September/December
+installments for the same Indian income &mdash; the highest-risk items for a preparer defaulting
+to one figure per year.</li>
+<li>This page does not resolve which method produces a larger usable credit in any specific
+case &mdash; that depends on the taxpayer&rsquo;s year-to-year income and Indian tax pattern
+and needs to be modeled, not assumed.</li>
+</ul>
+
+<h2>Questions worth putting to a preparer</h2>
+<ol>
+<li>Is this return on the cash or accrual method for foreign tax credit purposes specifically
+&mdash; has a &sect;905(a) election ever been filed, and would it bind all future years?</li>
+<li>For the Indian tax being claimed this year, which specific payments (TDS dates, advance-tax
+installment dates, self-assessment date) is the figure built from, and do any of them fall in
+a different US calendar year than the others?</li>
+<li>If a March advance-tax installment or a post-year-end self-assessment payment was involved,
+has it been credited on the Form 1116 for the US year it was actually paid, or lumped in with
+the rest of the Indian financial year&rsquo;s tax?</li>
+<li>Has the &sect;904 category limitation been checked separately for each US year the Indian
+payments land in, rather than once for a single blended figure?</li>
+<li>Would modeling the accrual election change which US year absorbs the largest share of the
+credit &mdash; and is that trade-off worth an irrevocable election?</li>
+</ol>
+
+<footer>
+<p><strong>This is not tax advice.</strong> It is a reading of primary documents, published so
+that the questions can be asked. It creates no professional relationship, computes no tax, and
+should not be relied on for a filing position. Where a claim could not be confirmed directly
+against a primary source in this pass, this page says so rather than filling the gap.</p>
+<p>Primary sources:
+<a href="https://www.law.cornell.edu/cfr/text/26/1.905-1">26 CFR 1.905-1</a> &middot;
+<a href="https://www.law.cornell.edu/uscode/text/26/905">26 U.S. Code &sect;905</a></p>
+<p>Last reviewed 30 August 2026.</p>
+</footer>
+</div>
