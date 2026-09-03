@@ -1,0 +1,408 @@
+<title>Does Any Indian Pension Scheme Actually Pass HMRC's QROPS Transfer Test?</title>
+<meta name="description" content="HMRC's live ROPS list names 35 Indian schemes, all commercial annuity products — NPS and EPF are absent. Regulation 3 and the 25% transfer charge, read in full.">
+<meta property="og:title" content="Does Any Indian Pension Scheme Actually Pass HMRC's QROPS Transfer Test?">
+<meta property="og:description" content="HMRC's live ROPS list names 35 Indian schemes, all commercial annuity products — NPS and EPF are absent. Regulation 3 and the 25% transfer charge, read in full.">
+<meta property="og:type" content="article">
+<link rel="canonical" href="https://SITE-ROOT/uk-qrops-india-transfer-test.html"> <!-- TODO: replace SITE-ROOT after deploy -->
+<style>
+:root{--bg:#fdfcfa;--panel:#fff;--ink:#1a1a1a;--mut:#5a5a5a;--line:#e5e2db;
+ --acc:#7a4a1f;--warn:#8a5a00;--warn-bg:#fdf7ea;--stop:#8c2f1c;--stop-bg:#fdf1ed}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#16161a;--panel:#1d1e23;
+ --ink:#eceef2;--mut:#a2a8b2;--line:#2d3038;--acc:#d9a86a;--warn:#dfb463;--warn-bg:#2a2418;
+ --stop:#e79178;--stop-bg:#2b1c17}}
+:root[data-theme=dark]{--bg:#16161a;--panel:#1d1e23;
+ --ink:#eceef2;--mut:#a2a8b2;--line:#2d3038;--acc:#d9a86a;--warn:#dfb463;--warn-bg:#2a2418;
+ --stop:#e79178;--stop-bg:#2b1c17}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);margin:0;padding:0 1.15rem 6rem;
+ font:16.5px/1.65 Charter,Georgia,"Iowan Old Style",serif}
+.w{max-width:730px;margin:0 auto}
+header{padding:4rem 0 1.5rem}
+h1{font-size:clamp(1.9rem,5vw,2.7rem);line-height:1.12;margin:0 0 .6rem;letter-spacing:-.02em}
+.sub{color:var(--mut);margin:0;font-size:1.05rem}
+.stamp{margin-top:1.6rem;font:500 .8rem/1.5 ui-sans-serif,system-ui,sans-serif;
+ color:var(--mut);letter-spacing:.04em;text-transform:uppercase}
+h2{font-size:1.35rem;margin:3rem 0 .3rem;letter-spacing:-.01em}
+h3{font-size:1rem;margin:1.8rem 0 .3rem;font-family:ui-sans-serif,system-ui,sans-serif}
+p{margin:.85rem 0}
+.lede{font-size:1.1rem;color:var(--mut)}
+blockquote{margin:1.1rem 0;padding:.85rem 1.1rem;border-left:3px solid var(--acc);
+ background:var(--panel);font-size:.97rem}
+blockquote p{margin:.3rem 0}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:7px;
+ padding:1.1rem 1.25rem;margin:1.4rem 0}
+.box.stop{border-color:var(--stop);background:var(--stop-bg)}
+.box.warn{border-color:var(--warn);background:var(--warn-bg)}
+.tag{display:inline-block;font:600 .68rem/1 ui-sans-serif,system-ui,sans-serif;
+ text-transform:uppercase;letter-spacing:.09em;padding:.3rem .55rem;border-radius:4px;
+ border:1px solid currentColor;margin-bottom:.6rem}
+.t-stop{color:var(--stop)} .t-warn{color:var(--warn)}
+table{width:100%;border-collapse:collapse;margin:1.2rem 0;
+ font:.9rem/1.5 ui-sans-serif,system-ui,sans-serif}
+th,td{text-align:left;padding:.55rem .6rem;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:.72rem;text-transform:uppercase;letter-spacing:.07em;color:var(--mut)}
+.scroll{overflow-x:auto;margin:0 -1.15rem;padding:0 1.15rem}
+ol,ul{padding-left:1.3rem}
+li{margin:.45rem 0}
+a{color:var(--acc)}
+footer{margin-top:4rem;padding-top:1.6rem;border-top:1px solid var(--line);
+ color:var(--mut);font:.87rem/1.6 ui-sans-serif,system-ui,sans-serif}
+code{font-size:.9em;background:var(--panel);padding:.1rem .3rem;border-radius:3px}
+nav.series{font:500 .8rem/1.5 ui-sans-serif,system-ui,sans-serif;color:var(--mut);
+ margin:0 0 .4rem;letter-spacing:.02em}
+nav.series a{color:var(--mut);text-decoration:underline}
+</style>
+<div class="w">
+<header>
+<nav class="series">Unsettled questions, part 19 · <a href="index.html">Part 1: PPF, EPF, NPS, ULIPs</a> · <a href="fbar-joint-accounts.html">Part 2: joint accounts and FBAR</a> · <a href="inherited-property-sale.html">Part 3: selling inherited property</a> · <a href="green-card-treaty-nonresident.html">Part 4: the green-card treaty election</a> · <a href="lrs-tcs-foreign-tax-credit.html">Part 5: LRS TCS and the US foreign tax credit</a> · <a href="huf-us-classification.html">Part 6: HUF classification and the karta’s liability</a> · <a href="fatca-indicia-not-self-certification.html">Part 7: the bank’s indicia beats your FATCA form</a> · <a href="epf-gratuity-not-a-pension.html">Part 8: EPF and gratuity lump sums vs the treaty pension definition</a> · <a href="india-fiscal-year-ftc-timing.html">Part 9: India’s fiscal year and the US foreign tax credit</a> · <a href="estate-tax-india-assets.html">Part 10: the foreign death tax credit that can't reach India</a> · <a href="huf-fractional-interest-discount.html">Part 11: the fractional interest discount meets an HUF interest</a> · <a href="epf-totalisation-third-country.html">Part 12: EPF totalisation across a third, non-SSA country</a> · <a href="epf-international-worker-wage-ceiling.html">Part 13: the para 83/43A litigation and EPF Scheme 2026</a> · <a href="uk-epf-2017-transition.html">Part 14 (UK): the 2017 transitional-protection folklore</a> · <a href="uk-epf-overseas-pension-scheme-status.html">Part 15 (UK): is EPF an “overseas pension scheme” at all</a> · <a href="canada-epf-t1135-article18.html">Part 16 (Canada): T1135 reporting and the Article 18 treaty question</a> · <a href="canada-departure-tax-epf-ppf.html">Part 17 (Canada): departure tax and the excluded-right-or-interest test</a> · <a href="uk-fig-regime-nre-interest.html">Part 18 (UK): the FIG regime vs the DTAA tax-sparing credit</a></nav>
+<h1>Does Any Indian Pension Scheme Actually Pass HMRC's QROPS Transfer Test?</h1>
+<p class="sub">This is the third <strong>UK-vertical</strong> page, and it moves from Part 15's question
+&mdash; is Indian EPF an "overseas pension scheme" at all &mdash; to the stricter test that applies
+when someone actually wants to <em>transfer a UK pension into</em> an Indian scheme. Transfer-service
+marketing routinely names HDFC Life, ICICI Prudential, and "NPS transfer" in the same breath. HMRC's
+own live list, read in full this session, tells a narrower and more specific story than any of the
+marketing pages found.</p>
+<p class="stamp">New: SI 2006/206 Regulation 3 read in full at legislation.gov.uk &middot; FA 2004 s.169
+and HMRC PTM102200 (the 25% overseas transfer charge) read in full &middot; HMRC's live ROPS
+notification list scanned for every Indian entry &middot; five competitor/marketing pages read in
+full and checked against the primary text</p>
+</header>
+
+<p class="lede">Part 15 asked whether Indian EPF satisfies SI 2006/206 Regulation 2 &mdash; the
+definition of an "overseas pension scheme" that gates a UK lump-sum deduction under money already
+paid out. This page asks the separate, stricter question that matters to a different reader: someone
+who still has UK pension rights and is being marketed a transfer into an Indian scheme before those
+rights are ever paid out at all. The statutory gate for that is Regulation 3, and it sits on top of
+Regulation 2, not beside it.</p>
+
+<h2>1. Regulation 3 is not a separate test &mdash; it is Regulation 2 plus more</h2>
+<p>SI 2006/206 Regulation 3, read in full at legislation.gov.uk (current consolidated text, last
+amended 6 April 2025), opens with the structural relationship stated in the statute's own words,
+quoted verbatim:</p>
+<blockquote><p>"3.&mdash;(1) For the purposes of section 150(8) (recognised overseas pension
+schemes), <strong>in addition to satisfying the requirements set out in regulation 2 above</strong>,
+the pension scheme must&mdash;(a) except where it falls within paragraph (1A), satisfy the
+requirements in paragraphs (6) and (6A); and (b) satisfy&hellip;the requirement that the scheme must
+be established in a country or territory mentioned in paragraph (2)&hellip;"</p></blockquote>
+<p>That single phrase &mdash; "in addition to satisfying the requirements set out in regulation 2
+above" &mdash; settles the structural question cleanly: a scheme must first clear Regulation 2's
+Regulation Requirements Test and Tax Recognition Test (the two tests Part 15 walked EPF through and
+found genuinely doubtful) before Regulation 3's own, additional conditions are even reached. Nothing
+in Regulation 3 relaxes Regulation 2. A scheme that fails Regulation 2 cannot become a Recognised
+Overseas Pension Scheme (ROPS, the current HMRC term; "QROPS" survives as the defined term in the
+underlying statute, FA 2004 s.169(1)(b)) by satisfying Regulation 3 alone.</p>
+<p>Regulation 3's own additional conditions, quoted verbatim, are:</p>
+<ul>
+<li><strong>Paragraph (6), the non-discrimination rule</strong>: "Where tax relief in respect of
+benefits paid from the scheme is available to a member of the scheme who is not resident in the
+country or territory in which the scheme is established, the same or substantially the same tax
+relief must&mdash;(a) also be available to members of the scheme who are resident in the country or
+territory; and (b) apply regardless of whether the member was resident in the country or territory
+&hellip;when the member joined the scheme; or &hellip;for any period of time when they were a member
+of the scheme." This targets schemes that give favourable treatment specifically to attract non-
+resident (i.e. transferring-in) members &mdash; a scheme cannot be more generous to an incoming UK
+transferee than to its own resident members.</li>
+<li><strong>Paragraph (6A)</strong>: benefit-payment timing must mirror UK pension-age rules for the
+transferred fund &mdash; broadly, no earlier access to the transferred portion than a UK registered
+scheme would allow, or the payment must be one that would count as an "authorised member payment" if
+made by a UK scheme.</li>
+<li><strong>Paragraph (2)/(1)(b)(i), the information-exchange condition</strong>: the scheme must be
+established in a country or territory covered by a UK information-exchange agreement under FA 2006
+s.173 or TIOPA 2010 s.2. India has a long-standing bilateral tax treaty with the UK carrying an
+exchange-of-information article (see Part 14 and Part 15, section 5, for the treaty read in full);
+this specific Regulation 3 gate is very likely satisfied for India on that basis, though the EOI
+article's text was not independently re-read this session against this specific statutory
+cross-reference &mdash; flagged as a highly probable but not separately re-verified pass.</li>
+</ul>
+<p>None of this is exotic drafting: it is standard anti-avoidance structure, closing off a scheme
+that would otherwise be attractive purely as a UK-transfer destination rather than on its own merits
+for local members. It is also, on its face, a test almost none of the marketing content found this
+session ever mentions by name.</p>
+
+<h2>2. The 25% overseas transfer charge &mdash; and the one exclusion condition every reader with an India move is actually asking about</h2>
+<p>Clearing Regulation 2 and Regulation 3 makes a scheme a ROPS. It does not, on its own, make a
+<em>transfer</em> to that scheme tax-free. Since Finance Act 2017, a separate income tax charge can
+apply to the transfer itself. HMRC's PTM102200 (Pensions Tax Manual, read in full), quoted
+verbatim:</p>
+<blockquote><p>"The overseas transfer charge is an income tax charge that applies to certain:
+recognised transfers from a registered pension scheme to a qualifying recognised overseas pension
+scheme (QROPS)&hellip;if the charge is under section 244AC, it will be 25% of the 'transferred
+value.'"</p></blockquote>
+<p>The charge does not apply if any one of five exclusion conditions is met. Quoted verbatim in
+full:</p>
+<blockquote><p>"The transferred value of a recognised transfer will be subject to an overseas
+transfer charge under section 244AC if none of the following exclusion conditions is met:<br>
+&mdash; The member is resident in the same country as that in which the QROPS receiving the transfer
+is established.<br>
+&mdash; The QROPS receiving the transfer is established in Gibraltar or a country within the
+European Economic Area (EEA) and the member is UK resident or resident in a country within the EEA
+or Gibraltar. Note that this exclusion applies only in respect of transfers requested before 30
+October 2024 and completed before 30 April 2025.<br>
+&mdash; The QROPS is set up by an international organisation for the purpose of providing benefits
+for, or in respect of, past service as an employee of the organisation and the member is an employee
+of that international organisation&hellip;<br>
+&mdash; The QROPS is an overseas public service pension scheme and the member is an employee of an
+employer that participates in the scheme.<br>
+&mdash; The QROPS is an occupational pension scheme and the member is an employee of a sponsoring
+employer under the scheme."</p></blockquote>
+<p>Since the EEA exclusion is now time-barred for new transfers and does not cover India regardless,
+and the other three exclusions do not fit an ordinary individual moving pension savings on
+retirement, the first condition &mdash; "the member is resident in the same country as that in which
+the QROPS receiving the transfer is established" &mdash; is the one that actually governs the family
+pattern this page is about: a UK-resident Indian-origin saver moving back to India.</p>
+<div class="box warn">
+<span class="tag t-warn">The genuinely open question</span>
+<h3 style="margin-top:0">Whose residence test, and residence when?</h3>
+<p>PTM102200 states the residence-match condition but does not, on the page read this session,
+define what "resident" means for this purpose &mdash; whether it imports the UK's Statutory
+Residence Test, ordinary tax-residence concepts, or something else, and precisely which moment's
+residence controls. The page does state, and this is the point that directly addresses the timing
+distinction marketing tends to blur: the exclusion is tested <strong>at the time of the transfer</strong>,
+but is not final &mdash; HMRC separately operates a "change of circumstances" mechanism (referenced
+on this page as PTM102400, not read this session) that can retrospectively claw back an excluded
+transfer's tax-free status if the member's residence changes within a defined period after the
+transfer. That means the ordinary marketing framing &mdash; "transfer once you've moved, and you're
+fine" &mdash; is directionally right about the exclusion condition but silent on the clawback window,
+and this page did not read PTM102400 to establish that window's exact length or mechanics. Flagged
+as open, not resolved here.</p>
+</div>
+<p>What follows from the exclusion's plain wording, independent of that open point: a transfer
+<strong>initiated while still UK resident, before the move to India</strong>, does not meet the
+"resident in the same country as the QROPS" condition at the moment of transfer (the member is UK
+resident; the QROPS, if Indian, is established in India) &mdash; so, absent one of the other four
+narrow exclusions, the 25% charge is the default outcome for a transfer timed that way. A transfer
+initiated <strong>after</strong> the saver has already become India-resident and the QROPS is an
+Indian scheme meets the condition on its face. The sequencing marketing pages gesture at ("living in
+the same country as the QROPS you're transferring to") is the right general shape of the rule; none
+of the pages read this session spell out the transfer-then-clawback mechanics that make the timing
+question more than a one-off snapshot.</p>
+
+<h2>3. HMRC's live ROPS list: 35 Indian schemes, and every one of them is a commercial annuity product</h2>
+<p>HMRC's "Check the recognised overseas pension schemes notification list" page (gov.uk, last
+updated 1 September 2026 at the time this page was read) carries the following disclaimer, quoted
+verbatim in full:</p>
+<blockquote><p>"This list contains pension schemes that have told HMRC that they meet the conditions
+to be a recognised overseas pension scheme (ROPS) and have asked to be included on the list&hellip;
+<strong>We cannot guarantee these are ROPS or that any transfers to them will be free of UK tax.
+It's your responsibility to find out if you have to pay tax on any transfer of pension
+savings.</strong> We will usually pursue any UK tax charges (and interest for late payment) arising
+from transfers to overseas entities that do not meet the ROPS requirements even when they appear on
+this list. This includes where the ROPS requirements have changed and where taxpayers are overseas.
+We will also charge penalties in appropriate cases&hellip;You should seek suitable professional
+advice, including from a regulated financial adviser."</p></blockquote>
+<p>Two things about that quote matter for accuracy. First, it is exactly the disclaimer the
+underlying premise of this page's research expected to find, and it is exactly as blunt as expected
+&mdash; listing is self-notification, not HMRC approval, and the transferring member carries the
+downside if a listed scheme is later found not to have met the requirements, even retroactively.
+Second, and this needs to be stated as a correction rather than assumed: the current live disclaimer
+does <strong>not</strong> contain a specific "40%" tax-charge figure. A number in that range plausibly
+traces to the separate unauthorised-payment-charge regime (FA 2004 s.208 and related provisions, a
+different and older charge from the 25% overseas transfer charge under s.244AC discussed above), but
+that cross-reference was not independently verified against primary statutory text this session, and
+no archived version of the gov.uk page was checked to see whether an older disclaimer once stated a
+figure. This page states only what the current disclaimer actually says.</p>
+<p>The list itself was read in full and scanned for every Indian entry. As of the 1 September 2026
+update, <strong>35 schemes</strong> are listed under India. Every one of them is a named commercial
+annuity or pension-insurance product sold by an IRDAI-regulated life insurer &mdash; not a
+government-administered retirement scheme, and not a generic "insurer" entry. The list includes
+named products from ABSLI, Axis Max Life, Bajaj Allianz/Bajaj Life, Canara HSBC, HDFC Life, ICICI
+Prudential Life, Kotak Life, LIC, PNB MetLife, SBI Life, and Tata AIA &mdash; for example "HDFC Life
+Guaranteed Pension Plan," "ICICI Pru Easy Retirement," "LIC's Jeevan Akshay &mdash; VII," each listed
+as its own separate scheme.</p>
+<div class="box stop">
+<span class="tag t-stop">What is not on the list</span>
+<h3 style="margin-top:0">Neither NPS nor EPF appears anywhere in HMRC's India section</h3>
+<p>The full India section of the live list was searched for "NPS," "National Pension," "EPF,"
+"EPFO," and "PFRDA." None appear. Marketing content that speaks generically of "transferring your UK
+pension to NPS," or that names HDFC Life or ICICI Prudential as if the insurer's brand were itself
+the qualifying scheme, does not match what HMRC's list actually shows: qualification is granted (or
+rather, self-notified and published) at the level of one named product, not one company and not one
+scheme type in the abstract. A reader being pointed at "HDFC Life" or "an NPS transfer" cannot verify
+eligibility from that description alone &mdash; the specific product name has to appear on the list,
+and as of this reading, no NPS product does. This absence does not prove NPS could never qualify
+(the list is opt-in and self-notified, not an exhaustive statement of what is theoretically eligible)
+but it is a direct, verifiable data point: nobody has actually put an NPS-linked scheme on this list,
+in practice, as of September 2026.</p>
+</div>
+
+<h2>4. The NPS-vs-EPF asymmetry: real on one test, and less clean than marketing implies on the other</h2>
+<p>Part 15 found Indian EPF plausibly fails Regulation 2's Tax Recognition Test because it is exempt
+at both ends &mdash; relief on contributions under s.80C, and exemption on withdrawal under
+ss.10(11)/10(12), the "EEE" structure. NPS is commonly described as EET rather than EEE, which raises
+the natural question this page's brief anticipated: does that difference make NPS pass where EPF
+fails?</p>
+<div class="box">
+<span class="tag t-warn">INFERENCE &mdash; NPS tax treatment</span>
+<h3 style="margin-top:0">NPS withdrawal is roughly 60% exempt, not fully exempt &mdash; but this was not confirmed against bare Income-tax Act text this session</h3>
+<p>Multiple current secondary sources, including HDFC Pension (an official NPS pension fund manager)
+and Protean (the NPS Central Recordkeeping Agency), consistently describe the position as: contribution
+relief is available under s.80CCD of the Income-tax Act, 1961, and at retirement only around 60% of
+the accumulated corpus can be withdrawn tax-free as a lump sum under s.10(12A), with the remainder
+either mandatorily annuitised (annuity income is separately taxable as it is received) or, if taken
+as a lump sum beyond the tax-free portion, potentially taxable. incometaxindia.gov.in's relevant pages
+could not be reached as a plain-text primary source this session (the site now serves this content
+through a JavaScript application that did not yield readable text via the tools used). This
+description is therefore <strong>INFERENCE</strong>, not verified against the bare statute the way
+EPF's s.80C/s.10(11)/s.10(12) treatment was verified in Part 15. It should be treated as probably
+right, not confirmed.</p>
+</div>
+<p>Taking that description at face value and running it against Regulation 2's Tax Recognition
+Condition 2 &mdash; quoted in full in Part 15 &mdash; produces a more nuanced result than a simple
+"NPS passes" headline. Condition 2 requires <em>one</em> of two alternative facts to be true: either
+"tax relief is not available to the member on contributions," or "all or most of the benefits paid by
+the scheme to members&hellip;are subject to taxation." NPS fails the first limb outright &mdash;
+contribution relief under s.80CCD plainly exists. And on the numbers reported above, NPS also does
+not clearly satisfy the second limb: if roughly 60% of the withdrawal is tax-free, that is not "all or
+most" of the benefit being taxed &mdash; it is a minority being taxed. On a literal reading of
+Condition 2's own wording, <strong>NPS may fail the Tax Recognition Test for essentially the same
+structural reason EPF does</strong> &mdash; neither limb of Condition 2 is squarely satisfied &mdash;
+even though NPS is unambiguously less generous, and taxed more, than EPF at the withdrawal stage. The
+marketed asymmetry (NPS transfers freely because it's "EET, not EEE") does not hold up cleanly against
+Condition 2's literal either/or wording; it is not confirmed to be wrong either, since no HMRC ruling
+addresses NPS by name and the "all or most" threshold is itself imprecise language this page cannot
+resolve to a bright line.</p>
+<div class="box">
+<span class="tag t-warn">VERIFIED &mdash; the asymmetry that does hold up</span>
+<h3 style="margin-top:0">NPS has an unambiguous external regulator; EPF's status is genuinely unclear</h3>
+<p>Read directly at pfrda.org.in: the Pension Fund Regulatory and Development Authority was
+established by its own 2013 Act of Parliament (in force 1 February 2014) and sits outside and above
+the NPS's operational machinery &mdash; the NPS Trust, pension fund managers, custodian, trustee
+bank, and points of presence are all listed as separate entities that PFRDA itself regulates. This is
+a structurally different picture from EPF, where Part 15 found EPFO's own tripartite Central Board of
+Trustees both administers the scheme and sets its rules, with no clearly separate external regulator
+&mdash; the genuinely open question Part 15 left unresolved. On Regulation 2's Regulation Requirements
+Test (not the Tax Recognition Test discussed above), NPS very plausibly clears the "regulated by a
+body" branch in a way EPF's ambiguous position does not. <strong>The asymmetry between NPS and EPF is
+real, but it sits on the Regulation Requirements Test, not on the Tax Recognition Test the marketed
+"EET beats EEE" framing implicitly assumes.</strong></p>
+</div>
+<p>Two further points this page flags but does not resolve. First, even a scheme that clears both
+Regulation 2 and Regulation 3 has to actually be willing and able, on the Indian side, to receive an
+inbound foreign pension transfer &mdash; whether NPS's own governing rules, PFRDA regulations, and
+India's foreign-exchange rules (FEMA) permit an NPS subscriber to receive a transfer-in from a UK
+pension scheme at all is a separate Indian-law question this page did not research and does not
+answer. Second, and consistent with section 3 above, no NPS-linked product currently appears on
+HMRC's ROPS list regardless of how the Regulation 2/3 analysis comes out on paper &mdash; the
+practical route, as of this reading, runs only through named commercial annuity products, not NPS.</p>
+
+<h2>5. What the marketing actually says, checked against all of the above</h2>
+<p>Five pages were read in full this session, covering both the India-based transfer-service side and
+the UK generalist-adviser side.</p>
+<div class="scroll">
+<table>
+<tr><th>Source</th><th>25% transfer charge</th><th>"Listing &ne; guarantee" risk</th><th>Residence-timing nuance</th></tr>
+<tr><td>Wise (money-transfer fintech)</td><td>Covered, reasonably accurately, including the &pound;1,073,100 overseas transfer allowance</td><td>Not mentioned</td><td>Gestures at "living in the same country" but does not spell out the clawback mechanism</td></tr>
+<tr><td>Unbiased (adviser-matching site)</td><td>Covered accurately, same allowance figure</td><td><strong>Stated clearly</strong>: "you may face a big tax bill" if the receiving scheme turns out not qualified, plus scam warning</td><td>Not spelled out, though a related 10-year UK-return charge is flagged &mdash; the most complete of the five on risk</td></tr>
+<tr><td>Policybazaar (insurance broker, lead-gen page)</td><td><strong>Absent</strong> &mdash; full-text search of the page found no mention</td><td><strong>Absent</strong></td><td><strong>Absent</strong></td></tr>
+<tr><td>QROPS Direct India (transfer specialist)</td><td>Not found on the pages read (a "when not to transfer" sub-page referenced in ad copy could not be loaded)</td><td>Not found on the pages read</td><td>Not found on the pages read</td></tr>
+<tr><td>QROP Direct UK (adviser-reviewed country guide)</td><td>Not addressed in detail (argues transfers to India aren't happening in practice)</td><td>N/A &mdash; argues the whole route is inactive</td><td>N/A</td></tr>
+</table>
+</div>
+<p>Two findings from that table are worth stating precisely rather than generalizing about "marketing
+overclaiming."</p>
+<div class="box stop">
+<span class="tag t-stop">A direct, checkable contradiction</span>
+<h3 style="margin-top:0">One adviser-reviewed UK guide says the opposite of what HMRC's own list currently shows</h3>
+<p>QROP Direct's UK country guide for India, reviewed by "an independent regulated pension
+specialist" as recently as 11 June 2026, states plainly: "Indian pension schemes are not on the HMRC
+QROPS register. There is no active market for UK pension transfers to India. This means QROPS is not
+a realistic option for UK nationals retiring to India." Read against the live HMRC list this session
+&mdash; 35 named Indian schemes, updated twice monthly, current as of 1 September 2026 &mdash; that
+claim is not accurate as of this reading. Both sides cite HMRC as their authority; only one of them
+appears to have actually checked the current list. This is not offered as a criticism of that guide's
+overall quality (its India tax-band and frozen State Pension content read as accurate and it carries
+proper regulatory framing) &mdash; it is offered as a concrete, quotable example of how quickly a
+twice-monthly-updated list can make even a careful, recently-reviewed guide wrong on the single fact
+that matters most.</p>
+</div>
+<div class="box warn">
+<span class="tag t-warn">A quotable omission</span>
+<h3 style="margin-top:0">A page devoted entirely to "how to transfer your UK pension to India" that never mentions the transfer charge</h3>
+<p>Policybazaar's QROPS page markets named annuity products with monthly-income figures ("Tax Free
+Pension &#8377;1.12 L/month" in one example) as though the tax outcome of a transfer were simply
+settled and favourable. A full-text search of the extracted page (14,908 characters) for "transfer
+charge," "55%," "not guarantee," "risk," and "resident" (in the transfer-charge sense) returned zero
+matches for all of them. This is the clearest single divergence this session found between marketing
+content and the primary text: not a misstatement of the law, but a page whose entire purpose is
+explaining this transfer route while omitting every mechanism &mdash; the 25% charge, HMRC's own
+guarantee disclaimer, and the residence-timing condition &mdash; that could cost a reader money.</p>
+</div>
+<p>What none of the five pages do, without exception: distinguish a transfer initiated before the
+move to India from one initiated after, in the specific terms section 2 above sets out. That gap is
+consistent across marketing and adviser-reviewed content alike, and it is the mechanism most likely
+to catch a real reader by surprise &mdash; not because any page says something false about it, but
+because none of them say anything about it at all.</p>
+
+<h2>6. What is verified and what is not</h2>
+<ul>
+<li><strong>VERIFIED</strong> &mdash; SI 2006/206 Regulation 3, read in full at legislation.gov.uk
+(current text, last amended 6 April 2025): Regulation 3 is cumulative on Regulation 2, not a
+standalone test, per its own opening words; its additional conditions (non-discrimination on
+benefits, payment-timing alignment, information-exchange country requirement) quoted verbatim above.</li>
+<li><strong>VERIFIED</strong> &mdash; FA 2004 s.169(1), read in full at legislation.gov.uk: the
+statutory definition of "recognised transfer," including transfers to "a qualifying recognised
+overseas pension scheme." Subsection (1) fully read; later subsections on annuity-purchase and
+scheme-pension continuity were not exhaustively pulled.</li>
+<li><strong>VERIFIED</strong> &mdash; HMRC PTM102200, read in full: the 25% overseas transfer charge
+under s.244AC, all five exclusion conditions quoted verbatim, and the fact that the exclusion is
+tested at the time of transfer but is subject to a later "change of circumstances" clawback mechanism
+(PTM102400, not itself read this session).</li>
+<li><strong>VERIFIED</strong> &mdash; HMRC's live ROPS notification list (gov.uk, updated 1 September
+2026), disclaimer quoted verbatim in full, and its India section: 35 named schemes, all commercial
+insurer annuity/pension products, zero NPS or EPF entries.</li>
+<li><strong>VERIFIED</strong> &mdash; PFRDA's status as NPS's external statutory regulator, read
+directly at pfrda.org.in.</li>
+<li><strong>INFERENCE</strong> &mdash; NPS's tax treatment (roughly 60% tax-free lump sum under
+s.10(12A), balance taxable or mandatorily annuitised), from multiple consistent secondary sources;
+not confirmed against bare Income-tax Act text this session.</li>
+<li><strong>Not resolved</strong> &mdash; the precise residence test (whose rules, and exactly which
+moment) that governs PTM102200's first exclusion condition; the exact mechanics and time window of
+the "change of circumstances" clawback (PTM102400); whether NPS's own governing rules and India's
+foreign-exchange law would even permit an inbound transfer from a UK scheme; whether a "40%" tax-
+charge figure appears anywhere in HMRC's own current published material (not found on the live
+disclaimer page read this session) or only in the separate, older unauthorised-payment-charge regime.</li>
+</ul>
+
+<h2>Questions worth putting to a UK-qualified, FCA-authorised pension transfer adviser before relying on any of this</h2>
+<ol>
+<li>Is the specific receiving scheme &mdash; not just the insurer's brand name, not "NPS" generically
+&mdash; currently on HMRC's live ROPS notification list, checked on the date closest to the actual
+transfer (the list changes twice monthly)?</li>
+<li>Does the transfer's timing, relative to the saver's actual change of tax residence, satisfy
+PTM102200's residence-match exclusion, and what does the "change of circumstances" clawback mean for
+a transfer completed shortly before or after the move?</li>
+<li>If the receiving scheme is a commercial annuity product rather than NPS or EPF, what happens to
+that product's own India-side tax treatment, and does it change anything about the UK-side analysis
+in Part 15's OPS framework?</li>
+</ol>
+
+<div class="box stop">
+<span class="tag t-stop">This is FCA-regulated advice territory</span>
+<h3 style="margin-top:0">Transferring a UK pension is not a decision this page, or any reading of primary sources, can make for you</h3>
+<p>In the UK, advising on the transfer of pension rights with safeguarded benefits (broadly, defined-
+benefit and similar schemes) above &pound;30,000 in value is a regulated activity that legally
+requires advice from an FCA-authorised pension transfer specialist. None of the five marketing or
+adviser pages read this session state that requirement with equal prominence, and this page does not
+attempt to substitute for it. What is above is a reading of statutes, HMRC's own published manual and
+notification list, and named marketing pages &mdash; nothing here is a recommendation to transfer, or
+not to transfer, any pension.</p>
+</div>
+
+<footer>
+<p><strong>This is not tax or financial advice, and it is not pension transfer advice.</strong> It is
+a reading of one set of regulations, one HMRC manual, one live government list, and five named
+marketing/adviser pages, run condition-by-condition so that the right questions can be asked before
+anyone relies on a paraphrase &mdash; including this one. UK pension transfer advice is a regulated
+professional service, and for schemes with safeguarded benefits above &pound;30,000 it is a legal
+requirement, not merely a good idea: take advice from a UK FCA-authorised pension transfer specialist
+on your specific facts before acting. It creates no professional relationship.</p>
+<p>Primary and key sources:
+<a href="https://www.legislation.gov.uk/uksi/2006/206/regulation/3">SI 2006/206, Regulation 3 (full text)</a> &middot;
+<a href="https://www.legislation.gov.uk/ukpga/2004/12/section/169">Finance Act 2004, section 169 (full text)</a> &middot;
+<a href="https://www.gov.uk/hmrc-internal-manuals/pensions-tax-manual/ptm102200">HMRC PTM102200, the overseas transfer charge</a> &middot;
+<a href="https://www.gov.uk/guidance/check-the-recognised-overseas-pension-schemes-notification-list">HMRC's live ROPS notification list</a> &middot;
+<a href="https://www.pfrda.org.in/">PFRDA</a> &middot;
+<a href="uk-epf-overseas-pension-scheme-status.html">Part 15: is EPF an "overseas pension scheme" at all</a></p>
+<p>Last reviewed 3 September 2026.</p>
+</footer>
+</div>
