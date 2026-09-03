@@ -1,0 +1,322 @@
+<title>Canada's Departure Tax and Indian EPF/PPF: What "Excluded Right or Interest" Actually Covers</title>
+<style>
+:root{--bg:#fdfcfa;--panel:#fff;--ink:#1a1a1a;--mut:#5a5a5a;--line:#e5e2db;
+ --acc:#7a4a1f;--warn:#8a5a00;--warn-bg:#fdf7ea;--stop:#8c2f1c;--stop-bg:#fdf1ed}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#16161a;--panel:#1d1e23;
+ --ink:#eceef2;--mut:#a2a8b2;--line:#2d3038;--acc:#d9a86a;--warn:#dfb463;--warn-bg:#2a2418;
+ --stop:#e79178;--stop-bg:#2b1c17}}
+:root[data-theme=dark]{--bg:#16161a;--panel:#1d1e23;
+ --ink:#eceef2;--mut:#a2a8b2;--line:#2d3038;--acc:#d9a86a;--warn:#dfb463;--warn-bg:#2a2418;
+ --stop:#e79178;--stop-bg:#2b1c17}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);margin:0;padding:0 1.15rem 6rem;
+ font:16.5px/1.65 Charter,Georgia,"Iowan Old Style",serif}
+.w{max-width:730px;margin:0 auto}
+header{padding:4rem 0 1.5rem}
+h1{font-size:clamp(1.9rem,5vw,2.7rem);line-height:1.12;margin:0 0 .6rem;letter-spacing:-.02em}
+.sub{color:var(--mut);margin:0;font-size:1.05rem}
+.stamp{margin-top:1.6rem;font:500 .8rem/1.5 ui-sans-serif,system-ui,sans-serif;
+ color:var(--mut);letter-spacing:.04em;text-transform:uppercase}
+h2{font-size:1.35rem;margin:3rem 0 .3rem;letter-spacing:-.01em}
+h3{font-size:1rem;margin:1.8rem 0 .3rem;font-family:ui-sans-serif,system-ui,sans-serif}
+p{margin:.85rem 0}
+.lede{font-size:1.1rem;color:var(--mut)}
+blockquote{margin:1.1rem 0;padding:.85rem 1.1rem;border-left:3px solid var(--acc);
+ background:var(--panel);font-size:.97rem}
+blockquote p{margin:.3rem 0}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:7px;
+ padding:1.1rem 1.25rem;margin:1.4rem 0}
+.box.stop{border-color:var(--stop);background:var(--stop-bg)}
+.box.warn{border-color:var(--warn);background:var(--warn-bg)}
+.tag{display:inline-block;font:600 .68rem/1 ui-sans-serif,system-ui,sans-serif;
+ text-transform:uppercase;letter-spacing:.09em;padding:.3rem .55rem;border-radius:4px;
+ border:1px solid currentColor;margin-bottom:.6rem}
+.t-stop{color:var(--stop)} .t-warn{color:var(--warn)}
+table{width:100%;border-collapse:collapse;margin:1.2rem 0;
+ font:.9rem/1.5 ui-sans-serif,system-ui,sans-serif}
+th,td{text-align:left;padding:.55rem .6rem;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:.72rem;text-transform:uppercase;letter-spacing:.07em;color:var(--mut)}
+.scroll{overflow-x:auto;margin:0 -1.15rem;padding:0 1.15rem}
+ol,ul{padding-left:1.3rem}
+li{margin:.45rem 0}
+a{color:var(--acc)}
+footer{margin-top:4rem;padding-top:1.6rem;border-top:1px solid var(--line);
+ color:var(--mut);font:.87rem/1.6 ui-sans-serif,system-ui,sans-serif}
+code{font-size:.9em;background:var(--panel);padding:.1rem .3rem;border-radius:3px}
+nav.series{font:500 .8rem/1.5 ui-sans-serif,system-ui,sans-serif;color:var(--mut);
+ margin:0 0 .4rem;letter-spacing:.02em}
+nav.series a{color:var(--mut);text-decoration:underline}
+</style>
+<div class="w">
+<header>
+<nav class="series">Unsettled questions, part 17 · <a href="index.html">Part 1: PPF, EPF, NPS, ULIPs</a> · <a href="fbar-joint-accounts.html">Part 2: joint accounts and FBAR</a> · <a href="inherited-property-sale.html">Part 3: selling inherited property</a> · <a href="green-card-treaty-nonresident.html">Part 4: the green-card treaty election</a> · <a href="lrs-tcs-foreign-tax-credit.html">Part 5: LRS TCS and the US foreign tax credit</a> · <a href="huf-us-classification.html">Part 6: HUF classification and the karta’s liability</a> · <a href="fatca-indicia-not-self-certification.html">Part 7: the bank’s indicia beats your FATCA form</a> · <a href="epf-gratuity-not-a-pension.html">Part 8: EPF and gratuity lump sums vs the treaty pension definition</a> · <a href="india-fiscal-year-ftc-timing.html">Part 9: India’s fiscal year and the US foreign tax credit</a> · <a href="estate-tax-india-assets.html">Part 10: the foreign death tax credit that can't reach India</a> · <a href="huf-fractional-interest-discount.html">Part 11: the fractional interest discount meets an HUF interest</a> · <a href="epf-totalisation-third-country.html">Part 12: EPF totalisation across a third, non-SSA country</a> · <a href="epf-international-worker-wage-ceiling.html">Part 13: the para 83/43A litigation and EPF Scheme 2026</a> · <a href="uk-epf-2017-transition.html">Part 14 (UK): the 2017 transitional-protection folklore</a> · <a href="uk-epf-overseas-pension-scheme-status.html">Part 15 (UK): is EPF an “overseas pension scheme” at all</a> · <a href="canada-epf-t1135-article18.html">Part 16 (Canada): T1135 reporting and the Article 18 treaty question</a></nav>
+<h1>Canada's departure tax and Indian EPF/PPF: what "excluded right or interest" actually covers</h1>
+<p class="sub">This is the second <strong>Canada-vertical</strong> page in this series: the reader is a
+Canadian tax resident with an Indian EPF or PPF balance who is leaving Canada &mdash; moving back to
+India, or onward to a third country. Section 128.1(4) deems almost everything you own sold at fair
+market value the day you cease residency. There is a pension carve-out. Whether it reaches an Indian
+provident fund depends on which of eleven separate limbs you test it against &mdash; and this page finds
+that EPF and PPF plausibly land on opposite sides of that test, for a reason no guide read this session
+mentions and that sits in real tension with this series' own prior finding on the same statute.</p>
+<p class="stamp">New Canada-vertical page &middot; Sources read in full &middot; Income Tax Act
+s.128.1(4), s.128.1(10) &amp; Income Tax Regulation 6802 (laws-lois.justice.gc.ca) &middot; CRA's own
+"Dispositions of property for emigrants of Canada" guide (canada.ca) &middot; five competitor guides
+read in full, quoted where relevant &middot; cross-references Part 16's Regulation 6803 finding</p>
+</header>
+
+<p class="lede">Roughly 1.86 million people of Indian origin live in Canada (2021 Census, StatCan) &mdash;
+the same population this series cited when it opened the Canada vertical in Part 16. That page asked
+whether EPF/PPF has to be reported on Form T1135 while you hold it. This page asks the mirror question:
+what happens to it the day you stop being a Canadian tax resident, before you have withdrawn a rupee of
+it. The two questions turn out to use two different statutory tests, with two different answers &mdash;
+and reading both tests against the same fund is what this page does that no competitor guide, including
+the strongest one, does.</p>
+
+<h2>1. The baseline: departure tax catches EPF/PPF unless something excludes it</h2>
+<p>Income Tax Act <strong>s.128.1(4)</strong>, read in full at laws-lois.justice.gc.ca, deems a taxpayer
+who ceases to be a Canadian resident to have disposed of "each property owned by the taxpayer" at fair
+market value immediately before departure, with four exceptions for individuals. Quoted verbatim,
+paragraph (b):</p>
+<blockquote><p>"the taxpayer is deemed to have disposed&hellip; of each property owned by the taxpayer
+other than, if the taxpayer is an individual, (i) real or immovable property situated in Canada, a
+Canadian resource property or a timber resource property, (ii) capital property used in&hellip; a
+business carried on by the taxpayer through a permanent establishment&hellip; in Canada&hellip;, (iii)
+an <em>excluded right or interest</em> of the taxpayer, (iv) if the taxpayer is not a trust and was not,
+during the 120-month period that ends at the particular time, resident in Canada for more than 60
+months, property that was owned by the taxpayer at the time the taxpayer last became resident in
+Canada&hellip;"</p></blockquote>
+<p>An Indian EPF or PPF balance is not Canadian real property and not Canadian business property. The
+60-month exception (iv) only helps someone who was Canadian-resident for five years or less in the
+decade before leaving &mdash; a real carve-out for recent arrivals, but not for anyone who spent longer
+in Canada. That leaves exactly one door: is EPF or PPF an <strong>"excluded right or interest"</strong>
+under s.128.1(10)? If not, the fund is deemed disposed of and reacquired at fair market value on
+departure day, and any accrued gain since the last valuation event enters the departure-year Canadian
+return &mdash; the exact mechanic Part 16 already verified for the arrival-side mirror image,
+s.128.1(1).</p>
+
+<h2>2. The definition has eleven limbs. Two look relevant. Neither is a clean yes.</h2>
+<p>Subsection <strong>128.1(10)</strong>, read in full, defines "excluded right or interest" as a list
+of eleven paragraphs, (a) through (l), most of them Canadian-specific (RRSPs, RRIFs, TFSAs, the Canada
+Pension Plan). Two sub-items are the only ones that could plausibly reach a foreign scheme like EPF or
+PPF, and this page tests both against the actual features of each fund rather than assuming either
+applies.</p>
+
+<h3>2a. Paragraph (a)(x): "a foreign retirement arrangement" &mdash; already closed by Part 16</h3>
+<p>Paragraph (a) of the definition includes, among rights under Canadian registered plans:</p>
+<blockquote><p>"(x) a foreign retirement arrangement&hellip;"</p></blockquote>
+<p>This term is defined at s.248(1) as "a prescribed plan or arrangement," and the only prescription is
+<strong>Income Tax Regulation 6803</strong>, which Part 16 already read in full and quoted verbatim: a
+closed list naming only plans governed by IRC &sect;408(a), (b) or (h) &mdash; US Individual Retirement
+Accounts, nothing else. EPF and PPF cannot reach this limb for the same reason they cannot reach the
+T1135 "exempt trust" carve-out that turns on the identical defined term. This door is shut, and it was
+shut by Part 16's own reading, not a new finding here.</p>
+
+<h3>2b. Paragraph (a)(viii): "a superannuation or pension fund or plan" &mdash; undefined, and this
+series has already been skeptical of calling EPF a "pension"</h3>
+<p>Paragraph (a)(viii) covers:</p>
+<blockquote><p>"a superannuation or pension fund or plan (other than an employee benefit plan)&hellip;"</p></blockquote>
+<p>Unlike "foreign retirement arrangement," this phrase is not sent to a regulation and has no statutory
+definition anywhere in the Act. On its face it is broad enough to read as country-agnostic. But Part 8 of
+this series, examining a different classification question (whether an EPF lump sum is a treaty
+"pension" under the US-India DTAA), found the Treasury's own Technical Explanation treating a one-time
+provident-fund withdrawal as distinct from a periodic pension payment. EPF is structurally a defined-
+contribution account with an individual balance, not a pooled annuity-style benefit &mdash; the same
+feature that made the "pension" label uncomfortable in Part 8. This page does not lean on (a)(viii); it
+is flagged here as the natural first guess and set aside as too weak to carry the argument, in favour of
+a sturdier limb below.</p>
+
+<h3>2c. Paragraph (g)(iv): "a plan or arrangement instituted by the social security legislation of a
+country other than Canada" &mdash; the limb no competitor tests</h3>
+<p>Paragraph (g) of the definition covers a right to a benefit under several social-insurance programs.
+Quoted verbatim, in full:</p>
+<blockquote><p>"(g) a right of the individual to a benefit under (i) the Canada Pension Plan or a
+provincial pension plan&hellip;, (ii) the Old Age Security Act, or&hellip; (iv) a plan or arrangement
+instituted by the social security legislation of a country other than Canada or of a state, province or
+other political subdivision of such a country;"</p></blockquote>
+<p>This sub-paragraph is not sent to any regulation &mdash; it stands on its own words in the Act. It is
+also not unique drafting: <strong>Income Tax Regulation 6802</strong>, read in full at
+laws-lois.justice.gc.ca, uses near-identical language ("a plan or arrangement instituted by the social
+security legislation of a country other than Canada&hellip;") for a different, unrelated purpose &mdash;
+excluding such plans from the definition of "retirement compensation arrangement" at s.248(1)(n). The
+repetition across two separate provisions is not itself authority for EPF, but it shows this is a
+recognized statutory category, not an ad hoc reading of five words.</p>
+
+<div class="box warn">
+<span class="tag t-warn">The classification question this page turns on</span>
+<h3 style="margin-top:0">Is EPF "instituted by the social security legislation" of India?</h3>
+<p>The Employees' Provident Fund is created and administered under the <strong>Employees' Provident
+Funds and Miscellaneous Provisions Act, 1952</strong>. That Act was consolidated in 2020 into India's
+own omnibus <strong>Code on Social Security, 2020</strong>, which explicitly folds the EPF Act into
+India's social-security legislative architecture &mdash; confirmed by India's own Ministry of Labour
+&amp; Employment materials and by PwC's <em>Worldwide Tax Summaries</em> country note for India, which
+states plainly: "Indian social security is broadly governed by the Employees' Provident Fund and
+Miscellaneous Provisions Act, 1952 (PF Act) and schemes made thereunder." That is an independent,
+professional characterization of EPF's home statute as India's social security legislation, not this
+page's own label. On that reading, an EPF balance plausibly is "a plan&hellip; instituted by the social
+security legislation of&hellip; India" within the plain words of paragraph (g)(iv) &mdash; a limb with
+no US-only regulation narrowing it the way Regulation 6803 narrows paragraph (a)(x).</p>
+<p><strong>PPF does not have the same institutional footing.</strong> The Public Provident Fund is
+governed by the <strong>Government Savings Promotion Act, 1873</strong> (the former Government Savings
+Banks Act) and the Public Provident Fund Scheme, 2019 notified under it &mdash; a small-savings statute
+administered by India's Department of Economic Affairs, open to any resident regardless of employment,
+sitting alongside instruments like the Senior Citizens' Savings Scheme. It is not part of the Code on
+Social Security, 2020 and is not administered by India's labour/social-security apparatus (EPFO) the way
+EPF is. A PPF account reads far more naturally as a government-backed savings instrument than as a "plan
+or arrangement instituted by social security legislation." <strong>EPF and PPF plausibly sit on opposite
+sides of the same statutory test</strong> &mdash; a distinction that matters because popular guidance and
+this series' own earlier pages have sometimes treated EPF and PPF as an interchangeable pair for tax
+purposes when the underlying statutes that create them are not equivalent.</p>
+</div>
+
+<h2>3. The tension with Part 16's own finding, stated honestly</h2>
+<p>Part 16 established, reading Regulation 6803 verbatim, that EPF and PPF cannot qualify as a "foreign
+retirement arrangement" for T1135 exempt-trust purposes because the only prescribed plans are US IRC
+&sect;408 accounts. This page does not disturb that finding &mdash; it remains correct on its own terms,
+for its own purpose (whether the fund is <em>specified foreign property</em> that must be reported each
+year it is held). What this page adds is that <strong>departure tax's "excluded right or interest"
+definition is not the same test</strong>. It does not route through "foreign retirement arrangement" or
+Regulation 6803 at all for the (g)(iv) limb; it uses an entirely separate, unregulated phrase or its own
+words in the Act. A fund can fail one test and plausibly pass the other, because they are different
+statutory questions asking different things, in different words, for different purposes (ongoing annual
+reporting versus a one-time deemed-disposition event). <strong>That is not a contradiction in the Act
+and it is not a contradiction in Part 16's reasoning</strong> &mdash; it is two genuinely different
+provisions that happen to sound similar because both involve the word "pension" or "retirement" somewhere
+in their vicinity. The honest, unsettled finding is the tension itself: a Canadian resident with EPF
+could plausibly owe nothing on departure (if (g)(iv) applies) while still having had to report the same
+fund on T1135 every year they held it (because (a)(x)/Regulation 6803 does not apply) &mdash; two
+different answers to two different questions about the identical asset, and no guide read this session
+walks a reader through why both can be true at once.</p>
+
+<h2>4. What five competitor guides say &mdash; and mostly don't say</h2>
+<p>Search terms used: "leaving Canada departure tax EPF," "moving back to India from Canada taxes PPF,"
+"emigrating Canada Indian assets deemed disposition." Five pages were read in full.</p>
+<p><strong>TrustNRI's dedicated departure-tax page</strong>
+(<code>situations/canada-departure-tax-deemed-disposition-indian-assets</code>), the strongest and most
+specific competitor content found, covers Indian real estate and Indian shares/mutual funds/gold in
+detail, with a worked example and the subsection 126(2.21) foreign-tax-credit mechanism for the resulting
+double-tax overlap with India's own capital-gains rules. Its own asset table states, quoted verbatim:</p>
+<blockquote><p>"RRSP, RRIF, TFSA, pensions &mdash; No, excluded"</p></blockquote>
+<p>EPF and PPF are not mentioned anywhere on this page, in the table or the text &mdash; not as caught,
+not as excluded, not at all.</p>
+<p><strong>TrustNRI's separate departure-tax blog post</strong>
+(<code>blog/canada-nri-departure-tax-section-128-1</code>) lists what is exempted from the deeming as
+"RRSP, RRIF, RPP, TFSA&hellip; Canadian-source pensions" and what is caught as "non-RRSP brokerage
+holdings&hellip; cryptocurrency&hellip; Indian shares held directly through a Canadian-resident
+broker&hellip; foreign rental property&hellip; precious metals." Again, no EPF, no PPF, no mention of a
+foreign provident fund or foreign social-security scheme in either list.</p>
+<p><strong>TrustNRI's dedicated EPF/NPS pension page</strong>
+(<code>situations/canada-indian-pension-epf-nps-tax</code>), read in Part 16 and re-checked here, covers
+Article 18 treaty taxation of an EPF withdrawal and its T1135 status in detail &mdash; but says nothing
+about what happens to an unwithdrawn EPF balance on the day a reader ceases Canadian residency. Three
+separate TrustNRI pages, the strongest specialist content available, and the departure-tax question for
+this specific asset is untouched across all three.</p>
+<p><strong>returntoindia.blog's "Indians Leaving Canada" guide</strong>, a long, sourced, cross-referenced
+piece (13-minute read, seven cited official sources, updated August 2026) with a detailed
+asset-by-asset table covering permanent residence, tax residency, non-registered investments, RRSP,
+TFSA, CPP, OAS and provincial health coverage, does not mention EPF, PPF, or any Indian retirement
+instrument anywhere in its text, table, or FAQ.</p>
+<p><strong>Dinesh Aarjav &amp; Associates' Canada page</strong>, from an established India-based CA firm
+serving NRI clients across 25+ countries, lists "Indian shares, mutual funds, PF, LICs" under T1135
+reporting but describes departure tax only generically as "Deemed Disposition of worldwide assets&hellip;
+Reporting exit from RRSP, TFSA, or other registered plans," again without naming EPF, PPF, or addressing
+whether a foreign provident fund could be excluded.</p>
+
+<div class="box stop">
+<span class="tag t-stop">The absence, stated plainly</span>
+<h3 style="margin-top:0">Five pages, three from the strongest specialist in the space, zero mentions</h3>
+<p>This is not a case of competitors getting the classification wrong the way Part 16 found on Article
+18 &mdash; it is a case of the question simply not being asked. Departure tax is clearly a live,
+well-served topic (TrustNRI alone has three dedicated pages on adjacent angles of it); the specific
+sub-question of what happens to an Indian provident-fund balance under the "excluded right or interest"
+definition, and specifically whether paragraph (g)(iv)'s social-security-legislation limb reaches it, does
+not appear to have been asked in public by any guide read this session. CRA's own official guidance has
+the same gap: its "Dispositions of property for emigrants of Canada" page, read in full at canada.ca,
+paraphrases the excluded categories as "pension plans, annuities&hellip; employee benefit plans&hellip;
+rights or interests in certain other trusts" and directs readers to "the definition&hellip; in subsection
+128.1(10)&hellip; for a complete list" without naming any foreign-scheme limb specifically &mdash; an
+honest, non-misleading gap (CRA is not required to enumerate every paragraph), but one that leaves a
+reader with no reason to go and check paragraph (g)(iv) at all.</p>
+</div>
+
+<h2>5. The deferral election works either way</h2>
+<p>Whatever the answer to the classification question, a reader who concludes EPF or PPF <em>is</em>
+caught by the deemed disposition is not without options. Form T1244, under s.220(4.5), lets a departing
+resident elect to defer payment of the resulting tax until the property is actually disposed of &mdash;
+CRA's own guide, read in full, confirms this "applies, regardless of the amount," subject to posting
+security if the deferred federal tax exceeds roughly CAD 16,500. This does not resolve the classification
+question; it only changes when the tax, if owed at all, becomes payable. TrustNRI's departure-tax pages
+cover this mechanism accurately for the assets they do discuss (Indian real estate, shares), and the same
+form and election would apply to an EPF or PPF balance found to be caught.</p>
+
+<h2>6. What is verified and what is not</h2>
+<ul>
+<li><strong>VERIFIED</strong> &mdash; Income Tax Act s.128.1(4)(b), read verbatim at
+laws-lois.justice.gc.ca: departure deems disposition of "each property," with four exceptions for
+individuals, of which "excluded right or interest" is the only one that could apply to a foreign
+provident fund held longer than the 60-month newcomer window.</li>
+<li><strong>VERIFIED</strong> &mdash; Income Tax Act s.128.1(10), read verbatim: the "excluded right or
+interest" definition has eleven paragraphs; paragraph (a)(x) ("foreign retirement arrangement") is
+closed to EPF/PPF by Part 16's already-verified reading of Regulation 6803 (US IRC &sect;408 plans
+only); paragraph (a)(viii) ("superannuation or pension fund or plan") is undefined and, per Part 8's
+prior finding on a different classification question, not a comfortable fit for a defined-contribution
+provident-fund account.</li>
+<li><strong>VERIFIED</strong> &mdash; paragraph (g)(iv) ("a plan or arrangement instituted by the social
+security legislation of a country other than Canada"), read verbatim, is not sent to any regulation and
+uses language echoed independently in Income Tax Regulation 6802 for a separate purpose (retirement
+compensation arrangements).</li>
+<li><strong>VERIFIED</strong> &mdash; EPF's home statute, the Employees' Provident Funds and
+Miscellaneous Provisions Act, 1952, is folded into India's Code on Social Security, 2020, and is
+characterized by PwC's Worldwide Tax Summaries as the legislation that "broadly governs" Indian social
+security. PPF's home statute is the Government Savings Promotion Act, 1873, a small-savings statute
+unconnected to India's social-security legislative architecture.</li>
+<li><strong>INFERENCE</strong> &mdash; that EPF (not PPF) therefore qualifies as an "excluded right or
+interest" under paragraph (g)(iv) and escapes departure tax. The statutory fit is plausible and, on the
+EPF/PPF asymmetry specifically, well-supported by each fund's actual home legislation, but no CRA
+technical interpretation, ruling, or Tax Court decision applying paragraph (g)(iv) to EPF, or to any
+comparable foreign provident-fund scheme, was found this session. The phrase "social security
+legislation" is itself undefined in the Act; a narrower reading (limited to unfunded, pooled,
+pay-as-you-go programs structurally like CPP, OAS or US Social Security, rather than a scheme with
+individually-owned, defined-contribution accounts like EPF) is available on the same text and cannot be
+ruled out without a ruling on point.</li>
+<li><strong>VERIFIED</strong> &mdash; five competitor guides read in full (three from TrustNRI, the
+strongest specialist found, plus returntoindia.blog and Dinesh Aarjav &amp; Associates) do not address
+whether EPF or PPF is caught by or excluded from Canada's departure tax, despite each covering departure
+tax and/or EPF/T1135 separately in detail. CRA's own official emigrant-property guide paraphrases the
+excluded-right-or-interest list without naming the social-security-legislation limb.</li>
+<li><strong>Not resolved</strong> &mdash; whether a lump-sum, individually-owned provident fund like EPF
+falls within "social security legislation" in the sense Parliament intended by that phrase, versus only
+pooled state pension/insurance programs. This is the genuine open question this page raises rather than
+closes; see Section 3 for why it can coexist, without contradiction, alongside Part 16's opposite-facing
+finding on the T1135 test for the identical asset.</li>
+</ul>
+
+<h2>Questions worth putting to a CPA or Canadian tax lawyer before filing a departure-year return</h2>
+<ol>
+<li>Does my EPF balance qualify as "a plan or arrangement instituted by the social security legislation"
+of India under s.128.1(10)(g)(iv) &mdash; and on what authority, given no CRA ruling naming EPF
+specifically was found in this research?</li>
+<li>Does my PPF balance qualify for any limb of "excluded right or interest," given its home statute (the
+Government Savings Promotion Act, 1873) is not social-security legislation in the same sense as the EPF
+Act?</li>
+<li>If either fund is caught by the deemed disposition, what is its fair market value on my departure
+date, and should I file Form T1244 to defer the resulting tax until actual withdrawal?</li>
+<li>How does the answer here interact with the Form T1135 reporting obligation Part 16 already
+established applies regardless &mdash; is there a risk of appearing inconsistent to CRA by treating the
+same fund as both reportable (T1135) and excluded (departure tax) in the same filing history?</li>
+</ol>
+
+<footer>
+<p><strong>This is not tax advice.</strong> It is a reading of the Income Tax Act, the Income Tax
+Regulations, CRA's own guidance, and five competitor guides, published so the right questions can be
+asked before anyone relies on a paraphrase &mdash; including this one. Canadian tax advice is a regulated
+professional service: take advice on your specific facts from a CPA or Canadian tax lawyer before filing
+or before relying on any position taken here. This page creates no professional relationship.</p>
+<p>Primary and key sources:
+<a href="https://laws-lois.justice.gc.ca/eng/acts/i-3.3/section-128.1.html">Income Tax Act s.128.1, emigration and immigration (subsections 1, 4, 10)</a> &middot;
+<a href="https://laws-lois.justice.gc.ca/eng/regulations/c.r.c.,_c._945/section-6802.html">Income Tax Regulation 6802</a> &middot;
+<a href="https://laws-lois.justice.gc.ca/eng/regulations/c.r.c.,_c._945/section-6803.html">Income Tax Regulation 6803 (Part 16 cross-reference)</a> &middot;
+<a href="https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/dispositions-property.html">CRA, "Dispositions of property for emigrants of Canada"</a> &middot;
+<a href="https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/individuals-leaving-entering-canada-non-residents/leaving-canada-emigrants.html">CRA, "Leaving Canada (emigrants)"</a></p>
+<p>Last reviewed 3 September 2026.</p>
+</footer>
+</div>
