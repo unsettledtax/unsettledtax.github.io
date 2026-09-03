@@ -1,0 +1,285 @@
+<title>Does Indian EPF Even Qualify as an "Overseas Pension Scheme" Under UK Law?</title>
+<style>
+:root{--bg:#fdfcfa;--panel:#fff;--ink:#1a1a1a;--mut:#5a5a5a;--line:#e5e2db;
+ --acc:#7a4a1f;--warn:#8a5a00;--warn-bg:#fdf7ea;--stop:#8c2f1c;--stop-bg:#fdf1ed}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#16161a;--panel:#1d1e23;
+ --ink:#eceef2;--mut:#a2a8b2;--line:#2d3038;--acc:#d9a86a;--warn:#dfb463;--warn-bg:#2a2418;
+ --stop:#e79178;--stop-bg:#2b1c17}}
+:root[data-theme=dark]{--bg:#16161a;--panel:#1d1e23;
+ --ink:#eceef2;--mut:#a2a8b2;--line:#2d3038;--acc:#d9a86a;--warn:#dfb463;--warn-bg:#2a2418;
+ --stop:#e79178;--stop-bg:#2b1c17}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);margin:0;padding:0 1.15rem 6rem;
+ font:16.5px/1.65 Charter,Georgia,"Iowan Old Style",serif}
+.w{max-width:730px;margin:0 auto}
+header{padding:4rem 0 1.5rem}
+h1{font-size:clamp(1.9rem,5vw,2.7rem);line-height:1.12;margin:0 0 .6rem;letter-spacing:-.02em}
+.sub{color:var(--mut);margin:0;font-size:1.05rem}
+.stamp{margin-top:1.6rem;font:500 .8rem/1.5 ui-sans-serif,system-ui,sans-serif;
+ color:var(--mut);letter-spacing:.04em;text-transform:uppercase}
+h2{font-size:1.35rem;margin:3rem 0 .3rem;letter-spacing:-.01em}
+h3{font-size:1rem;margin:1.8rem 0 .3rem;font-family:ui-sans-serif,system-ui,sans-serif}
+p{margin:.85rem 0}
+.lede{font-size:1.1rem;color:var(--mut)}
+blockquote{margin:1.1rem 0;padding:.85rem 1.1rem;border-left:3px solid var(--acc);
+ background:var(--panel);font-size:.97rem}
+blockquote p{margin:.3rem 0}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:7px;
+ padding:1.1rem 1.25rem;margin:1.4rem 0}
+.box.stop{border-color:var(--stop);background:var(--stop-bg)}
+.box.warn{border-color:var(--warn);background:var(--warn-bg)}
+.tag{display:inline-block;font:600 .68rem/1 ui-sans-serif,system-ui,sans-serif;
+ text-transform:uppercase;letter-spacing:.09em;padding:.3rem .55rem;border-radius:4px;
+ border:1px solid currentColor;margin-bottom:.6rem}
+.t-stop{color:var(--stop)} .t-warn{color:var(--warn)}
+table{width:100%;border-collapse:collapse;margin:1.2rem 0;
+ font:.9rem/1.5 ui-sans-serif,system-ui,sans-serif}
+th,td{text-align:left;padding:.55rem .6rem;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:.72rem;text-transform:uppercase;letter-spacing:.07em;color:var(--mut)}
+.scroll{overflow-x:auto;margin:0 -1.15rem;padding:0 1.15rem}
+ol,ul{padding-left:1.3rem}
+li{margin:.45rem 0}
+a{color:var(--acc)}
+footer{margin-top:4rem;padding-top:1.6rem;border-top:1px solid var(--line);
+ color:var(--mut);font:.87rem/1.6 ui-sans-serif,system-ui,sans-serif}
+code{font-size:.9em;background:var(--panel);padding:.1rem .3rem;border-radius:3px}
+nav.series{font:500 .8rem/1.5 ui-sans-serif,system-ui,sans-serif;color:var(--mut);
+ margin:0 0 .4rem;letter-spacing:.02em}
+nav.series a{color:var(--mut);text-decoration:underline}
+</style>
+<div class="w">
+<header>
+<nav class="series">Unsettled questions, part 15 · <a href="index.html">Part 1: PPF, EPF, NPS, ULIPs</a> · <a href="fbar-joint-accounts.html">Part 2: joint accounts and FBAR</a> · <a href="inherited-property-sale.html">Part 3: selling inherited property</a> · <a href="green-card-treaty-nonresident.html">Part 4: the green-card treaty election</a> · <a href="lrs-tcs-foreign-tax-credit.html">Part 5: LRS TCS and the US foreign tax credit</a> · <a href="huf-us-classification.html">Part 6: HUF classification and the karta’s liability</a> · <a href="fatca-indicia-not-self-certification.html">Part 7: the bank’s indicia beats your FATCA form</a> · <a href="epf-gratuity-not-a-pension.html">Part 8: EPF and gratuity lump sums vs the treaty pension definition</a> · <a href="india-fiscal-year-ftc-timing.html">Part 9: India’s fiscal year and the US foreign tax credit</a> · <a href="estate-tax-india-assets.html">Part 10: the foreign death tax credit that can't reach India</a> · <a href="huf-fractional-interest-discount.html">Part 11: the fractional interest discount meets an HUF interest</a> · <a href="epf-totalisation-third-country.html">Part 12: EPF totalisation across a third, non-SSA country</a> · <a href="epf-international-worker-wage-ceiling.html">Part 13: the para 83/43A litigation and EPF Scheme 2026</a> · <a href="uk-epf-2017-transition.html">Part 14 (UK): the 2017 transitional-protection folklore</a></nav>
+<h1>Does Indian EPF Even Qualify as an "Overseas Pension Scheme" Under UK Law?</h1>
+<p class="sub">This is the second <strong>UK-vertical</strong> page, and a deep dive into the single
+question Part 14 flagged as unresolved by any source found: every ranking UK guide's most
+generous deduction &mdash; ITEPA s.574A's Step 3 &mdash; is only available if the scheme paying the
+lump sum is an "overseas pension scheme" as defined by s.150(7) Finance Act 2004. Nobody ranking on
+this topic tests Indian EPF against that definition. This page reads the statute, the regulations,
+and HMRC's own manual condition-by-condition against EPF's actual features, and reports what a
+careful reading finds &mdash; including where it cannot be resolved without an HMRC ruling.</p>
+<p class="stamp">New: full statutory text of s.150(7) FA 2004 and SI 2006/206 Regulation 2, read
+directly at legislation.gov.uk &middot; HMRC PTM112200 read in full, including detail Part 14 did
+not quote &middot; Indian-side EEE mechanics and EPFO's regulatory character walked against every
+limb of both UK tests</p>
+</header>
+
+<p class="lede">Part 14 established that Finance Act 2017's headline change made foreign pension
+lump sums <em>more</em> taxable, not less, and that the one deduction ranking guides apply
+unconditionally &mdash; Step 3's "as if it were a UK registered scheme" reduction &mdash; only
+exists "if the lump sum is paid under an overseas pension scheme." That is not a loose phrase. It
+is a defined term with a two-part statutory test, and this page is the first place found, anywhere,
+that runs Indian EPF through it.</p>
+
+<h2>1. The definition, in full, from the statute itself</h2>
+<p>Section 150(7) of the Finance Act 2004, read in full at legislation.gov.uk, defines the term in
+one sentence:</p>
+<blockquote><p>"In this Part 'overseas pension scheme' means a pension scheme (other than a
+registered pension scheme) which&mdash;<br>(a) is established in a country or territory outside the
+United Kingdom, and<br>(b) satisfies any requirements prescribed for the purposes of this subsection
+by regulations made by the Board of Inland Revenue."</p></blockquote>
+<p>Limb (a) is not contentious for EPF: it is established in India. Limb (b) sends the real test to
+secondary legislation &mdash; the Pension Schemes (Categories of Country and Requirements for
+Overseas Pension Schemes and Recognised Overseas Pension Schemes) Regulations 2006 (SI 2006/206),
+Regulation 2, as amended in 2017 and again in 2025. Read in full at legislation.gov.uk, the
+regulation's operative structure is two independent conditions, both of which must be satisfied
+(the international-organisation carve-out in reg.2(1)(b) is irrelevant to EPF and set aside here):</p>
+<blockquote><p>"2.&mdash;(1) For the purposes of section 150(7)&hellip; an overseas pension scheme
+must&mdash;(a) satisfy the requirements in paragraphs (2) and (3)&hellip;<br>
+(2) This paragraph is satisfied if&mdash;(a) the scheme is an occupational pension scheme
+and&mdash;(i) the scheme is regulated by a body in the country or territory in which the scheme is
+established that regulates occupational pension schemes, or (ii) there is no body in that country or
+territory that regulates occupational pension schemes&hellip;<br>
+(3) This paragraph is satisfied if the scheme is recognised for tax purposes."</p></blockquote>
+<p>Paragraph (2) is the Regulation Requirements Test; paragraph (3), expanded by further text in the
+same regulation, is the Tax Recognition Test. HMRC's PTM112200, read in full (not merely the excerpt
+Part 14 quoted), restates both in guidance form and adds detail neither Part 14 nor any competitor
+guide surfaces. Both tests are walked against EPF below.</p>
+
+<h2>2. The Regulation Requirements Test &mdash; genuinely undetermined, not merely unresolved</h2>
+<p>PTM112200 explains what the test is for, quoted verbatim: "The test is aimed at identifying a
+regulator in the other country that oversees legislation/guidelines that impacts directly on the
+operation of the pension scheme, to ensure that pension schemes are administered soundly in order to
+protect members' interests." For an occupational scheme &mdash; which EPF is, since it is
+"established by an employer or employers" in the s.150(5) sense, run via mandatory employer-employee
+contributions &mdash; the rule is binary, quoted verbatim: "If there is a regulator of occupational
+pension schemes in the country or territory in which the scheme is established, the scheme must be
+regulated by that regulator. If the occupational pension scheme is not regulated then it cannot be an
+overseas pension scheme. It is not open to the scheme to meet the requirement in another way. <strong>If
+there is no regulator of occupational pension schemes, the occupational pension scheme will satisfy
+the regulatory requirements test.</strong>"</p>
+<div class="box warn">
+<span class="tag t-warn">The genuinely open question</span>
+<h3 style="margin-top:0">Is EPFO "regulated by" a regulator, or does no such regulator exist in India?</h3>
+<p>India has no PFRDA-style separate regulator for occupational provident/pension funds the way it
+has one (PFRDA) for NPS. EPF is administered by the Employees' Provident Fund Organisation (EPFO), a
+statutory body constituted under the Employees' Provident Funds and Miscellaneous Provisions Act,
+1952, and run by a tripartite Central Board of Trustees (chaired by the Union Minister of Labour and
+Employment) that itself makes the scheme rules, oversees investment, and enforces compliance. That
+structure supports two opposite readings of PTM112200's binary test, and this page found no source
+that resolves which one applies:</p>
+<ul>
+<li><strong>Reading A &mdash; EPFO is the scheme, not a separate regulator of it.</strong> The
+Central Board of Trustees both runs EPF and sets its rules; there is no distinct external body that
+"regulates" EPFO the way, say, the Pensions Regulator oversees UK occupational schemes, or PFRDA
+oversees NPS. On this reading, "there is no body in that country or territory that regulates
+occupational pension schemes" (limiting the description to non-EPFO schemes, since EPFO is not
+itself a regulator of others), and reg.2(2)(a)(ii)'s no-regulator branch is satisfied automatically
+&mdash; a pass, not a fail.</li>
+<li><strong>Reading B &mdash; EPFO's Central Board of Trustees functions exactly as the "body that
+regulates" the scheme.</strong> HMRC's own framing of the test's purpose &mdash; overseeing
+legislation/guidelines that "impacts directly on the operation of the pension scheme, to ensure that
+pension schemes are administered soundly" &mdash; describes what the Central Board of Trustees does
+for EPF: it sets the EPF Scheme's rules under statutory authority, mandates audited accounts, and
+enforces contribution and investment rules on employers. On this reading EPF is regulated, and the
+question becomes only whether self-administration by a statutory tripartite board counts as being
+"regulated by" a body in the PTM112200 sense at all, since the "regulator" and the "scheme"
+overlap in a way the UK's own separated model (schemes regulated by the Pensions Regulator, an
+external body) does not contemplate.</li>
+</ul>
+<p>No HMRC guidance, tribunal decision, or professional publication found by this page addresses this
+distinction for EPF, or for any statutorily self-administered occupational scheme, specifically. It
+is flagged here as unresolved, not decided either way.</p>
+</div>
+
+<h2>3. The Tax Recognition Test &mdash; this is the one that plausibly fails, and Part 14's read holds up under the fuller text</h2>
+<p>PTM112200's full text (read in full this session, going further than Part 14's excerpt) sets out
+three conditions, all of which must be met. Condition 1, quoted verbatim: "The scheme must be open to
+persons resident in the country or territory in which it is established." EPF membership is tied to
+employment with a covered establishment in India, not residency as such, but membership is not
+restricted to a closed class and is broadly available to India-based employees &mdash; on the facts
+available this condition is not the obstacle, though it was not independently stress-tested against a
+scenario (e.g. an India-based employee who is a UK tax resident from day one) that might complicate it.</p>
+<p>Condition 2 is the substantial gate, and its full text is richer than the single "cannot be exempt
+at both" sentence Part 14 quoted. The regulation and the manual state it as three genuinely
+alternative limbs (the Australian-superannuation limb is inapplicable to EPF and set aside), quoted
+verbatim: "looking at the treatment of contributions to / or benefits from the scheme&hellip; one of
+the following statements must be true: tax relief is not available to the member on contributions
+made to the scheme by them or by their employer, or all or most of the benefits paid by the scheme to
+members (who are not in serious ill-health) are subject to taxation." HMRC's own summary follows:
+"So tax relief, or an exemption from tax, either applies at the point money goes into the scheme as a
+contribution, or the point it leaves as a benefit payment. It cannot be exempt at both of these
+points."</p>
+<div class="box stop">
+<span class="tag t-stop">Where EPF plausibly fails</span>
+<h3 style="margin-top:0">EPF is exempt at both ends, on the mechanics every competitor already describes</h3>
+<p><strong>INFERENCE</strong> (the Indian-side statutory sections below were not independently
+re-read at primary text this session &mdash; incometaxindia.gov.in returned a maintenance page on
+every attempted read, consistent with the same access failure noted in the project's most recent
+regulatory-watch sweep; the description here is standard, uncontested Indian tax-practice
+consensus, corroborated by every UK competitor guide read for Part 14 and this page, not a novel
+claim): employee contributions to EPF attract deduction under s.80C of the Income-tax Act, 1961
+(subject to the overall s.80C cap), and the accumulated balance, including interest, is exempt on
+withdrawal under ss.10(11)/10(12) for an employee with five or more years of continuous service.
+That is relief at the contribution point <em>and</em> exemption at the benefit point &mdash; the
+exact combination Condition 2 disallows. The Finance Act, 2021 proviso taxing interest on annual
+employee contributions above &#8377;2.5 lakh (or &#8377;5 lakh where there is no employer
+contribution) taxes only the marginal interest on excess contributions, not "all or most of the
+benefits" &mdash; a small, targeted carve-out, not a reversal of the underlying exempt-exempt
+structure. On this reading, Condition 2 fails, the Tax Recognition Test fails, and EPF is not an
+"overseas pension scheme" &mdash; which means Step 3 of s.574A, the deduction every ranking
+calculation guide in Part 14 applied without checking, is simply unavailable for a typical
+EPF lump sum.</p>
+</div>
+<p>Condition 3, the one no competitor guide or this page's Part 14 addressed at all, asks whether the
+scheme is "approved or recognised by, or registered with, the relevant tax authorities as a pension
+scheme." <strong>INFERENCE</strong>, secondary-sourced (title/snippet-level searches converging
+across multiple independent Indian tax-practice sources, including a case-law aggregator's headnote,
+not a primary read of the Fourth Schedule text, which incometaxindia.gov.in would not render this
+session): a provident fund constituted under a Scheme framed under the Employees' Provident Funds Act,
+1952 is treated as a "Recognised Provident Fund" for the purposes of Part A of the Fourth Schedule to
+the Income-tax Act, 1961 &mdash; a distinct statutory recognition mechanism administered by India's tax
+authorities, referenced in ss.2(38), 10(12), 36(1)(iv) and elsewhere in the Act. If that description
+holds up under a primary read, EPF plausibly <em>passes</em> Condition 3 even though it plausibly
+fails Condition 2 &mdash; the two conditions do not stand or fall together, and no source found
+distinguishes them for EPF. Since all three conditions are conjunctive, failing Condition 2 alone is
+enough to fail the whole Tax Recognition Test regardless of Condition 3.</p>
+
+<h2>4. What this changes about Part 14's own conditional finding</h2>
+<p>Part 14 flagged the OPS question as open and did not resolve it. This page does not fully resolve
+it either &mdash; the Regulation Requirements Test genuinely turns on a reading of EPFO's institutional
+structure that no primary authority has settled. But the Tax Recognition Test is not equally open: on
+the plain terms of PTM112200's Condition 2, applied to the exempt-exempt structure every source
+(competitor and primary alike) agrees EPF has, EPF plausibly fails it. Since both the Regulation
+Requirements Test and the Tax Recognition Test must be satisfied for a scheme to be an "overseas
+pension scheme," a plausible failure of either is sufficient to disqualify EPF &mdash; meaning the
+Tax Recognition Test analysis alone is enough to put real doubt on Step 3's availability, independent
+of how the harder Regulation Requirements question eventually resolves.</p>
+
+<div class="box warn">
+<span class="tag t-warn">What was checked, and found absent</span>
+<h3 style="margin-top:0">No considered analysis of EPF's OPS status was found anywhere</h3>
+<p>Multiple browser-search passes this session (queries combining "EPF," "overseas pension scheme,"
+"section 150(7)," "QROPS," and "regulated") returned no HMRC published guidance naming Indian EPF,
+no UK tax tribunal decision on the point, and no professional-firm article that runs EPF through
+either test. The closest hit was a search-indexed snippet, from a UK pension-tracing commercial site,
+asserting that "the Indian regulatory and tax structure of these schemes does not align with HMRC's
+QROPS [requirements]" &mdash; but the source page could not be located live when this session tried
+to open it (it returned a 404, suggesting the site's content has since changed or been retired), the
+statement concerns the separate and stricter Recognised Overseas Pension Scheme / QROPS transfer
+regime (SI 2006/206 reg.3, not reg.2), and it was never read in full. It is noted here as a single
+unverifiable directional data point, not relied on as evidence. The absence of any settled treatment
+is itself this page's central finding: the deduction every ranking UK guide presents as routine rests
+on a classification question nobody &mdash; not HMRC, not a tribunal, not a professional firm &mdash;
+appears to have published a considered answer to.</p>
+</div>
+
+<h2>5. What is verified and what is not</h2>
+<ul>
+<li><strong>VERIFIED</strong> &mdash; Finance Act 2004 s.150(7), read in full at legislation.gov.uk:
+the two-limb "established outside the UK" plus "satisfies prescribed requirements" definition, quoted
+above.</li>
+<li><strong>VERIFIED</strong> &mdash; SI 2006/206 Regulation 2(1)-(3), read in full at
+legislation.gov.uk (current, amended text): the Regulation Requirements Test's occupational-scheme
+branch (regulated-by-a-body, or no-body-exists) and the Tax Recognition Test's threshold clause,
+quoted above verbatim.</li>
+<li><strong>VERIFIED</strong> &mdash; HMRC PTM112200, read in full: the Regulation Requirements
+Test's stated purpose and binary occupational-scheme rule; Tax Recognition Conditions 1-3 in full,
+including the three-limb structure of Condition 2 that Part 14's shorter excerpt did not show.</li>
+<li><strong>INFERENCE</strong> &mdash; the Indian-side EEE description (s.80C relief on
+contributions, ss.10(11)/10(12) exemption on withdrawal after five years' continuous service, and the
+Finance Act 2021 &#8377;2.5 lakh/&#8377;5 lakh proviso taxing only excess-contribution interest).
+Uncontested in every source encountered, including primary UK competitor guides, but not independently
+re-read against the Indian statutory text this session — incometaxindia.gov.in returned a maintenance
+page on every URL tried, matching the access failure already logged in the project's most recent
+regulatory-watch sweep for a different section of the same Act.</li>
+<li><strong>INFERENCE</strong> &mdash; EPF's automatic "Recognised Provident Fund" status under Part
+A of the Fourth Schedule to the Income-tax Act, 1961, and its possible relevance to Tax Recognition
+Condition 3. Secondary-sourced only (search-snippet convergence across independent Indian
+tax-practice sources), not read at the primary statutory text.</li>
+<li><strong>Not resolved</strong> &mdash; whether EPFO's self-administering Central Board of Trustees
+satisfies, or is exempted from, the Regulation Requirements Test's occupational-scheme branch; whether
+Indian EPF is, on balance, an "overseas pension scheme" for s.574A Step 3 purposes at all. No HMRC
+ruling, tribunal decision, or professional analysis addressing EPF specifically was found. This page
+narrows the question (Tax Recognition Test plausibly fails; Regulation Requirements Test is genuinely
+undetermined) without closing it.</li>
+</ul>
+
+<h2>Questions worth putting to a UK-qualified adviser or HMRC before relying on a Step 3 deduction</h2>
+<ol>
+<li>Does EPFO's Central Board of Trustees count as "a body&hellip;that regulates occupational pension
+schemes" for the purposes of SI 2006/206 reg.2(2)(a), or does India have no such body &mdash; and if
+the latter, does the no-body branch of the test apply automatically in EPF's favour?</li>
+<li>Given EPF's contribution relief under s.80C and its withdrawal exemption under ss.10(11)/10(12),
+on what basis, if any, does HMRC's Tax Recognition Condition 2 not apply to disqualify EPF as an
+overseas pension scheme?</li>
+<li>If EPF is not an overseas pension scheme, does the computation change beyond simply losing Step
+3 &mdash; for example, does it affect which sentence of Step 2 governs the pre-2017 deduction, or
+any other consequence of the classification, that Part 14 did not test?</li>
+</ol>
+
+<footer>
+<p><strong>This is not tax advice.</strong> It is a reading of one Act, one statutory instrument, and
+one HMRC manual, run condition-by-condition against Indian EPF's publicly documented features, so
+that the right questions can be asked before anyone relies on a paraphrase &mdash; including this one.
+Tax advice in the UK is a regulated professional service: take advice on your specific facts from a
+UK-qualified adviser (for example a CIOT/ATT chartered tax adviser or a UK chartered accountant)
+before acting. It creates no professional relationship.</p>
+<p>Primary and key sources:
+<a href="https://www.legislation.gov.uk/ukpga/2004/12/section/150">Finance Act 2004, section 150 (full text)</a> &middot;
+<a href="https://www.legislation.gov.uk/uksi/2006/206/regulation/2">SI 2006/206, Regulation 2 (full text)</a> &middot;
+<a href="https://www.gov.uk/hmrc-internal-manuals/pensions-tax-manual/ptm112200">HMRC PTM112200, what is an overseas pension scheme</a> &middot;
+<a href="uk-epf-2017-transition.html">Part 14: the 2017 transitional-protection folklore</a></p>
+<p>Last reviewed 3 September 2026.</p>
+</footer>
+</div>
